@@ -1,15 +1,15 @@
-mark{
+mark {
     background-color: rgba(43, 226, 226, 0.623);
     color: #FFFFFF;
     font-family: unset;
 }
 
-header{
+header {
     background-color: rgba(128, 0, 111, 0.295);
-    color: blueviolet;
+    color: #DA70D6;
     padding: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4vh;   
+    font-size: 4vh;
 }
 
 s {
@@ -17,13 +17,12 @@ s {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-footer{
+footer {
     background-color: rgba(128, 0, 111, 0.295);
     color: rgba(100, 73, 86, 0.603);
     padding: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4vh; 
-    margin-top: 30px; 
+    font-size: 4vh;
+    margin-top: 30px;
     width: 100%;
 }
