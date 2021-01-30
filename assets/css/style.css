@@ -1,16 +1,29 @@
-#navegacao>li>a:hover {
-    color: #05123b;
-    border-bottom: 3px #05123b solid;
+mark{
+    background-color: rgba(43, 226, 226, 0.623);
+    color: #FFFFFF;
+    font-family: unset;
 }
 
-.row>.col-md>[class^=fas],
-.row>.col-md>[class^=far],
-strong {
-    color: #4682B4;
+header{
+    background-color: rgba(128, 0, 111, 0.295);
+    color: blueviolet;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;   
 }
 
-#agende,
-#atuacao,
-#atendimento {
-    background-color: rgba(128, 128, 128, 0.144);
+s {
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer{
+    background-color: rgba(128, 0, 111, 0.295);
+    color: rgba(100, 73, 86, 0.603);
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh; 
+    margin-top: 30px; 
+    width: 100%;
 }
