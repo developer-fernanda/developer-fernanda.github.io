@@ -1,0 +1,16 @@
+#navegacao>li>a:hover {
+    color: #05123b;
+    border-bottom: 3px #05123b solid;
+}
+
+.row>.col-md>[class^=fas],
+.row>.col-md>[class^=far],
+strong {
+    color: #4682B4;
+}
+
+#agende,
+#atuacao,
+#atendimento {
+    background-color: rgba(128, 128, 128, 0.144);
+}
