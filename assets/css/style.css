@@ -1,66 +1,65 @@
-#navegacao>li>a:hover {
-    color: #05123b;
-    border-bottom: 1px #fafafa solid;
-}
-
-#navegacao>li>a {
-    border-bottom: none;
-    transition: transform 2s;
-}
-
-strong {
+                #header {
+                background-image: url(../img/fundo.6.jpg);
+                color: white;
+                padding-bottom: 50px;
+            }
+            
+            #navegacao>li>a:hover {
+                color: #05123b;
+                border-bottom: 1px #fafafa solid;
+            }
+            /* strong {
     color: #4682B4;
-}
-
-#agende,
-#atuacao,
-#atendimento {
-    background-color: rgba(128, 128, 128, 0.144);
-}
-
-#atuacao,
-#reembolso,
-#contatos,
-#home {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#header {
-    background-image: url(../img/fundo.jpg);
-    color: white;
-    padding-bottom: 50px;
-}
-
-#citacao {
-    padding: 30px;
-}
-
-#footer {
-    color: white;
-    background-color: #3c8eb7;
-}
-
-#cards>:hover {
-    color: white;
-    background-color: rgb(63, 59, 59);
-}
-
-#camada12 {
-    position: fixed;
-    /* Sit on top of the page content */
-    width: 100%;
-    /* Full width (cover the whole page) */
-    height: 100%;
-    /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Black background with opacity */
-    z-index: 2;
-    /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer;
-    /* Add a pointer on hover */
-}
+} */
+            
+            #agende,
+            #atuacao,
+            #atendimento {
+                background-color: rgba(128, 128, 128, 0.144);
+            }
+            
+            #atuacao,
+            #reembolso,
+            #contatos,
+            #home {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            
+            #citacao {
+                padding: 30px;
+            }
+            
+            #footer {
+                color: white;
+                background-color: #3c8eb7;
+            }
+            
+            #acesse>li>a:hover {
+                border-bottom: 1px white solid;
+            }
+            
+            #cards>:hover {
+                color: white;
+                background-color: rgba(63, 59, 59, 0.712);
+                /* #conteudoNavbarSuportado {
+    background-color: rgb(20, 19, 19);
+} */
+                #carousel {
+                    position: fixed;
+                    /* Sit on top of the page content */
+                    width: 100%;
+                    /* Full width (cover the whole page) */
+                    height: 100%;
+                    /* Full height (cover the whole page) */
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: rgba(128, 35, 35, 0.5);
+                    /* Black background with opacity */
+                    z-index: 2;
+                    /* Specify a stack order in case you're using a different order for other elements */
+                    cursor: pointer;
+                    /* Add a pointer on hover */
+                }

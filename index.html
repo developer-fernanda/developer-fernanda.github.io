@@ -8,24 +8,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
     <meta name="theme-color" content="#3c8eb7">
 </head>
 
-
 <body>
     <!-- NAV -->
-    <header>
-        <div class="container-fluid" id="header">
-            <div id="camada"></div>
-            <div class="d-flex justify-content-around px-3">
-                <nav class=" navbar navbar-expand-md flex-sm-column mt-3">
-                    <ul class="list-unstyled">
-                        <li class="h5 ">Fernanda Ingrid</li>
-                        <li>Psicóloga Clínica</li>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg ">
+            <button class="navbar-toggler" style="border: 1px solid white; color: white;" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars p-1"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <div class="container-fluid d-flex justify-content-around">
+                    <ul class="list-unstyled d-none d-lg-block" style="color: white;">
+                        <li>
+                            <img src="assets/img/logo.png" alt="psicologia" class="img-fluid" style="height: 40px;"> Fernanda Ingrid</li>
+                        <li class="pl-5"> Psicóloga </li>
                     </ul>
-                </nav>
-                <nav class=" navbar navbar-expand-md flex-sm-column justify-content-center">
-                    <ul class="navbar-nav mx-auto " id="navegacao">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navegacao">
                         <li class="nav-item px-3">
                             <a class="nav-link text-reset " href="#home" style="color: white;">HOME</a>
                         </li>
@@ -39,37 +40,35 @@
                             <a class="nav-link text-reset " href="#contatos" style="color: white;">CONTATOS</a>
                         </li>
                     </ul>
-                </nav>
-                <div class="navbar navbar-expand-md flex-sm-column d-flex justify-content-center">
-                    <ul class="navbar-nav mx-auto ">
-                        <li class="nav-item px-4 ">
-                            <a target="_blank" href="https://wa.me/5511995056742">
-                                <div class="btn btn-outline-light h5" style="border-radius: 25px;"> <i class="fab fa-whatsapp"></i></div>
-                            </a>
-                            <a target="_blank" href="mailto:email_que_recebe_as_mensagens@exemplo.com">
-                                <div class="btn btn-outline-light h5" style="border-radius: 25px;"> <i class="far fa-envelope"></i></div>
-                            </a>
-                            <a target="_blank" href="https://www.linkedin.com/in/fernanda-ingrid-94156377/" style="text-decoration:none; color:white ">
-                                <div class="btn btn-outline-light h5" style="border-radius: 25px;"> <i class="fab fa-linkedin"></i></div>
-                            </a>
-                        </li>
-                    </ul>
+                    <form class="d-flex ">
+                        <ul class="navbar-nav mx-auto d-none d-lg-block ">
+                            <li class="nav-item px-4 ">
+                                <a target="_blank" href="https://wa.me/5511995056742">
+                                    <div class="btn btn-outline-light h5" style="border-radius: 25px;"> <i class="fab fa-whatsapp"></i></div>
+                                </a>
+                                <a target="_blank" href="mailto:email_que_recebe_as_mensagens@exemplo.com">
+                                    <div class="btn btn-outline-light h5" style="border-radius: 25px;"> <i class="far fa-envelope"></i></div>
+                                </a>
+                                <a target="_blank" href="https://www.linkedin.com/in/fernanda-ingrid-94156377/">
+                                    <div class="btn btn-outline-light h5" style="border-radius: 25px;"> <i class="fab fa-linkedin"></i></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
                 </div>
             </div>
-            <div class="row" id="citacao">
-                <div class="col-md text-center mt-5 px-5">
-                    <h1> "O homem não é nada mais do que <br> aquilo que faz a si próprio." </h1>
-                    <h5> Jean-Paul Sartre</h5>
-                    <a href="#contatos">
-                        <div class="btn btn-outline-light h5 mt-5" style="border-radius: 25px;"> <i class="fas fa-pencil-alt"></i> </i>AGENDE SEU ATENDIMENTO </div>
-                    </a>
-                    <!-- <i class="fas fa-edit m-2"></i> opção de icone -->
-                </div>
+        </nav>
+        <div class="row" id="citacao">
+            <div class="col-md text-center mt-5 px-5">
+                <h1> "O homem não é nada mais do que <br> aquilo que faz a si próprio." </h1>
+                <h5> Jean-Paul Sartre</h5>
+                <a href="#contatos">
+                    <div class="btn btn-outline-light h5 mt-5" style="border-radius: 25px;"> <i class="fas fa-pencil-alt"></i> </i>AGENDE SEU ATENDIMENTO </div>
+                </a>
             </div>
-
-
         </div>
     </header>
+
 
     <!--CONTEÚDO SITE-->
 
@@ -78,50 +77,48 @@
         <section id="home">
             <div class="row mb-5">
                 <!--SUA JORNADA COMEÇA AQUI-->
-                <div class="col-md-6 text-end mt-5 px-5">
+                <div class="col-md-5 text-end text-justify mt-3 px-5">
                     <hr>
-                    <h5> Começe hoje sua jornada de Saúde Emocial!</h5>
+                    <h5> COMEÇE HOJE</h5>
                     <hr>
                     <p> Nos últimos meses, o mundo passou por um grande processo de <strong>transformação</strong>, no qual, foi preciso adaptarmos a forma de realizarmos as atividades diárias.</p>
-                    <p> Novas tecnologias surgiram para auxiliar na comunicação e a área da saúde precisou se modernizar para atender as necessidades de seus clientes.</p>
-                    <p>O <strong>atendimento psicológico online </strong>que já era tendência ganhou visibilidade e veio para ficar!</p>
+                    <p> Novas tecnologias surgiram para auxiliar na comunicação e <strong>atendimento psicológico online </strong>que já era tendência ganhou visibilidade e veio para ficar!</p>
                     <p> Venha fazer parte dessa nova jornada, não perca tempo! </p>
                 </div>
-                <div class="col-md-6 text-center mt-3 ">
+                <div class="col-md-7 text-center mt-3 ">
                     <!-- CARROSEL -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"> </li>
                         </ol>
-                        <div class="carousel-inner" style="height: 400px;">
+                        <div class="carousel-inner rounded shadow">
                             <div class="carousel-item active">
-                                <h2>Comodidade</h2>
+
                                 <img class="d-block w-100" src="assets/img/comodidade.jpg" alt="First slide">
-                                <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
+                                <div class="carousel-caption mb-5" style="color: white;">
+                                    <h1>ATENDIMENTO ONLINE</h1>
+                                    <h3>No conforto da sua casa</h3>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <h3>Atendimento em qualquer lugar</h3>
+
                                 <img class="d-block w-100" src="assets/img/atendimento.jpg" alt="Second slide">
-                                <div class="carousel-caption d-none d-md-block" style="color:black">
+                                <div class="carousel-caption mb-5" style="color:white; ">
+                                    <h1>COMODIDADE</h1>
+                                    <h3>Atendimento em qualquer</h3>
                                 </div>
                             </div>
 
                             <div class="carousel-item">
-                                <h2>Acessibilidade</h2>
                                 <img class="d-block w-100" src="assets/img/acessibilidade.jpg" alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
+                                <div class="carousel-caption mb-5" style="color:white">
+                                    <h1>ACESSIBILIDADE</h1>
+                                    <h3> Facilidade de Acesso</h3>
                                 </div>
+                            </div>
 
-                            </div>
-                            <div class="carousel-item">
-                                <h2>Segurança</h2>
-                                <img class="d-block w-100" src="assets/img/segurança.jpg" alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
-                                </div>
-                            </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
@@ -138,38 +135,41 @@
         <!--ATUAÇÃO-->
         <section id="atuacao">
             <div class="row ">
-
-                <div class="col-md-3 mt-5 pl-5">
-                    <img src="assets/img/fernanda.jpg " alt="Fernanda Ingrid " class="img-fluid d-block mx-auto p-1 m-3 bg-white " style="width:250px;">
+                <div class="col-md-7 mt-5 pl-5">
+                    <img src="assets/img/fernanda.1.jpg " alt="Fernanda Ingrid " class="img-fluid d-block mx-auto p-1 m-3 rounded shadow " style="width:250px;">
+                    <div class=" mt-3 px-5 text-center text-justify">
+                        <h5>FERNANDA INGRID </h5>
+                        <hr class="my-1 pb-3 " />
+                        <p> Graduada em Psicologia pela Universidade Paulista (UNIP), 2014</p>
+                        <p> Desde 2015, atua em clínica e consultório, utilizando a abordagem fenomenológica existencial.</p>
+                        <p> Atendimento para adolescentes, adultos e casais.</p>
+                        <p><i class="fab fa-whatsapp "></i> +55 99505-6742</p>
+                        <p><i class="far fa-envelope "></i> fernandaingrid.psicologia@gmail.com </p>
+                    </div>
                 </div>
-                <div class="col-md-4 mt-5 pl-5">
-                    <h5><i class="fas fa-graduation-cap h2"></i> FERNANDA INGRID </h5>
-                    <hr class="my-1 pb-3 " />
-                    <p> Graduada em Psicologia pela Universidade Paulista (UNIP), 2014</p>
-                    <p> Desde 2015, atua em clínica e consultório, utilizando a abordagem fenomenológica existencial.</p>
-                    <p> Atendimento para adolescentes, adultos e casais.</p>
-                    <p><i class="fab fa-whatsapp "></i> +55 99505-6742</p>
-                    <p><i class="far fa-envelope "></i> fernandaingrid.psicologia@gmail.com </p>
-
-                </div>
-
                 <!-- PSICOTERAPIA / AT ONLINE / PLANTÃO -->
-                <div class="col-md-5 mt-5 mb-5 px-5">
-                    <h5><i class="fas fa-chalkboard-teacher h2"></i> ATENDIMENTO ONLINE</h5>
-                    <hr class="my-2 pb-2" />
-                    <p> Sem trânsito, no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
+                <div class="col-md-5 mt-5 mb-5 px-3 text-center" id="cards">
+                    <div class="card card-body rounded shadow mb-3 mx-3">
+                        <h5><i class="fas fa-chalkboard-teacher h2"></i> ATENDIMENTO ONLINE</h5>
+                        <hr class="my-2 pb-2" />
+                        <p> Sem trânsito, no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
+                    </div>
 
-                    <h5><i class="fas fa-couch h2 pt-2"></i> PSICOTERAPIA
-                    </h5>
-                    <hr class="my-2 pb-2 " />
-                    <p> Atendimento psicológico na aborgagem fenomenológica existencial para adolescentes, adultos e casais.</p>
+                    <div class="card card-body rounded shadow mb-3 mx-3">
+                        <h5><i class="fas fa-couch h2 pt-2"></i> PSICOTERAPIA
+                        </h5>
+                        <hr class="my-2 pb-2 " />
+                        <p> Atendimento psicológico na aborgagem fenomenológica existencial para adolescentes, adultos e casais.</p>
+                    </div>
 
-                    <h5><i class="far fa-comments h2 pt-2"></i></i>
-                        PLANTÃO PSICOLÓGICO</h5>
-                    <hr class="my-2  pb-2" />
-                    <p> Espaço de acolhimento das necessidades emocionais para o desenvolvimento de estratégias de enfrentamento das dificuldades. </p>
+                    <div class="card card-body rounded shadow mb-3 mx-3">
+                        <h5><i class="far fa-comments h2 pt-2"></i></i>
+                            PLANTÃO PSICOLÓGICO</h5>
+                        <hr class="my-2  pb-2" />
+                        <p> Espaço de acolhimento das necessidades emocionais para o desenvolvimento de estratégias de enfrentamento das dificuldades. </p>
+                    </div>
+
                 </div>
-
             </div>
         </section>
 
@@ -178,73 +178,74 @@
             <div class="row text-center">
                 <!--INFORMAÇÕES-->
                 <div class="col-md-12 ">
-                    <i class="fas fa-hand-holding-usd" style="font-size: 50px;"></i>
-                    <hr>
-                    <h4> REEMBOLSO DE CONVÊNIO</h4>
+
+                    <h4> <i class="fas fa-hand-holding-usd h1"></i> REEMBOLSO DE CONVÊNIO </h4>
                     <hr>
                     <p>Gostaria de solicitar o reembolso de sua consulta psicológica?</p>
-                    <P>Muitas pessoas têm dúvidas de como solicitar o reembolso do convênio.</P>
                     <h4> Veja como é simples! </h4>
                 </div>
                 <!--PASSO A PASSO-->
+                <!--PASSO 1-->
                 <div class="col-md-3 mt-5" id="cards">
-                    <div class="card card-body h-100 text-center">
+                    <div class="card card-body h-100 text-center rounded shadow">
                         <i class=" fas fa-phone-volume h1"></i>
                         <p>Ligue para seu <strong> plano de saúde </strong> e solicite informações de como obter o reembolso.</p>
-
                     </div>
                 </div>
-
+                <!--PASSO 2-->
                 <div class="col-md-3 mt-5" id="cards">
-                    <div class="card card-body h-100 text-center">
+                    <div class="card card-body h-100 text-center rounded shadow">
                         <i class="far fa-copy h1"></i>
                         <p>A maioria dos convênios solicitam um <strong> encaminhamento médico </strong> com o
                             <abbr title="Classificação Internacional de Doenças">CID 10</abbr> do paciente para autorização da Psicoterapia.
                         </p>
                     </div>
                 </div>
-
+                <!--PASSO 3-->
                 <div class="col-md-3 mt-5" id="cards">
-                    <div class="card card-body h-100 text-center">
+                    <div class="card card-body h-100 text-center rounded shadow">
                         <i class="fas fa-file-invoice-dollar h1"></i>
                         <p>Solicite também um <strong> recibo</strong> de pagamento dos atendimentos para apresentar ao convênio.
                         </p>
                     </div>
                 </div>
+                <!--PASSO 4-->
                 <div class="col-md-3 mt-5" id="cards">
-                    <div class="card card-body h-100 text-center">
+                    <div class="card card-body h-100 text-center rounded shadow">
                         <i class="fas fa-envelope-open-text h1"></i>
                         <p>
                             Após reunir toda a documentação, <strong> encaminhe </strong> para o convênio e aguarde!
                         </p>
                     </div>
-
-
-
                 </div>
+            </div>
         </section>
 
         <!--VAMOS CONVERSAR-->
         <section id="agende" class="text-center">
-            <div class=" row ">
+            <div class=" row p-5 ">
+                <!--AGENDE-->
                 <div class="col-md-12">
-                    <h2 class="m-5"> Vamos conversar? Agende sua consulta.
+                    <h2 class="m-5"> AGENDE AGORA UM ATENDIMENTO ONLINE</h2>
+                    <hr style="width: 500px;">
+                    <p> Clique no botão para conversar através do Whatsapp. </p>
+                    <a target="_blank" href="https://wa.me/5511995056742">
+                        <div class="btn btn-outline-dark dark px-4 mt-4"> <i class="fab fa-whatsapp "> CONVERSAR</i></div>
+                    </a>
                 </div>
-                </h2>
             </div>
-
         </section>
-        </div>
-        <!--ENTRE EM CONTAO-->
+
+        <!--CONTATOS-->
         <section id="contatos">
             <div class="row px-3 m-3">
-                <!--CONTATOS-->
-                <div class="col-md mt-5">
+                <div class="col-12 py-4 text-center">
+                    <h4>Ou se preferir, deixe seus dados que entraremos em contato em algumas horas.</h4>
+                </div>
+                <div class="col-md-5 mt-5">
                     <nav>
                         <ul class="list-unstyled text-end px-3 ">
-                            <h4></h4>
-                            <li class=" h4 pb-3">Para mais informações e dúvidas, entre contato:</li>
-                            <li class=" h5 ">Fernanda Ingrid</li>
+                            <h4>Fernanda Ingrid</h4>
                             <li class="h6" style="color: gray;">Psicóloga Clínica | 06/124806</li>
                             <h6> <i class="fab fa-whatsapp "></i> + 55 99505-6742</h6>
                             <h6><i class="far fa-envelope "></i> fernandaingrid.psicologia@gmail.com</h6>
@@ -252,7 +253,7 @@
                     </nav>
                 </div>
                 <!--FORMULÁRIO DE CONTATO-->
-                <div class="col-md mt-5">
+                <div class="col-md-7 mt-">
                     <form action="/contato" method="post" role="form" id="form_contato" name="form_contato" class="bg-white p-3 p-lg-5 border border-radius rounded shadow">
                         <input type="hidden">
                         <div class="row form-group">
@@ -284,10 +285,8 @@
                         </div>
                     </form>
                 </div>
-
             </div>
         </section>
-
 
         <!-- RODAPÉ-->
         <footer>
@@ -324,7 +323,7 @@
                     <!--ACESSE-->
                     <div class="col-md-3 pl-5">
                         <nav>
-                            <ul class="list-unstyled text-end t ">
+                            <ul class="list-unstyled text-end  " id="acesse">
                                 <li class="h5 ">Acesse</li>
                                 <li><a href="#home" style="text-decoration:none; color:white ">Home</a> </li>
                                 <li><a href="#atuacao" style="text-decoration:none; color:white ">Atuação</a> </li>
@@ -335,11 +334,12 @@
                     </div>
                 </div>
                 <div class="col-12 text-center">
-                    <p>Copyright 2021</p>
+
                     <a target="_blank" href="https://github.com/developer-fernanda">
                         <div class="btn btn-outline-light h5 " style="border-radius: 25px; text-decoration:none;"> <i class="fab fa-github"></i></div>
                     </a>
-                    Fernanda Ingrid. Todos os direitos reservados.
+                    <p>Copyright 2021</p>
+                    <p>Fernanda Ingrid. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>
