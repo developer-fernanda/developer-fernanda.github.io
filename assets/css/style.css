@@ -1,28 +1,68 @@
-mark {
-    background-color: rgba(43, 226, 226, 0.623);
-    color: #FFFFFF;
-    font-family: unset;
+#navegacao>li>a:hover {
+    color: #05123b;
+    border-bottom: 1px #fafafa solid;
 }
 
-header {
-    background-color: rgba(128, 0, 111, 0.295);
-    color: #DA70D6;
-    padding: 1rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4vh;
+#navegacao>li>a {
+    border-bottom: none;
+    transition: transform 2s;
 }
 
-s {
-    color: blueviolet;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.row>.col-md>[class^=fas],
+.row>.col-md>[class^=far],
+strong {
+    color: #4682B4;
 }
 
-footer {
-    background-color: rgba(128, 0, 111, 0.295);
-    color: rgba(100, 73, 86, 0.603);
-    padding: 1rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4vh;
-    margin-top: 30px;
+#agende,
+#atuacao,
+#atendimento {
+    background-color: rgba(128, 128, 128, 0.144);
+}
+
+#atuacao,
+#reembolso,
+#contatos,
+#home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#header {
+    background-image: url(../img/fundo.jpg);
+    color: white;
+    padding-bottom: 50px;
+}
+
+#citacao {
+    padding: 30px;
+}
+
+#footer {
+    color: white;
+    background-color: #3c8eb7;
+}
+
+#cards>:hover {
+    color: white;
+    background-color: rgb(63, 59, 59);
+}
+
+#camada12 {
+    position: fixed;
+    /* Sit on top of the page content */
     width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
 }
