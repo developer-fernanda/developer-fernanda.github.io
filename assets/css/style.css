@@ -8,8 +8,6 @@
     transition: transform 2s;
 }
 
-.row>.col-md>[class^=fas],
-.row>.col-md>[class^=far],
 strong {
     color: #4682B4;
 }
