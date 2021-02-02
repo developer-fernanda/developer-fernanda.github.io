@@ -78,14 +78,16 @@
         <section id="home">
             <div class="row mb-5">
                 <!--SUA JORNADA COMEÇA AQUI-->
-                <div class="col-md-5 text-end mt-5 px-5">
+                <div class="col-md-6 text-end mt-5 px-5">
+                    <hr>
                     <h5> Começe hoje sua jornada de Saúde Emocial!</h5>
+                    <hr>
                     <p> Nos últimos meses, o mundo passou por um grande processo de <strong>transformação</strong>, no qual, foi preciso adaptarmos a forma de realizarmos as atividades diárias.</p>
-                    <p> Novas tecnologias como meio comunicação, tornaram-se práticas comuns e a área da saúde precisou se modernizar para atender as necessidades de seus clientes.</p>
+                    <p> Novas tecnologias surgiram para auxiliar na comunicação e a área da saúde precisou se modernizar para atender as necessidades de seus clientes.</p>
                     <p>O <strong>atendimento psicológico online </strong>que já era tendência ganhou visibilidade e veio para ficar!</p>
                     <p> Venha fazer parte dessa nova jornada, não perca tempo! </p>
                 </div>
-                <div class="col-md-7 text-center mt-4 ">
+                <div class="col-md-6 text-center mt-3 ">
                     <!-- CARROSEL -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -93,20 +95,30 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"> </li>
                         </ol>
-                        <div class="carousel-inner" style="height: 350px;">
+                        <div class="carousel-inner" style="height: 400px;">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="assets/img/fundo.4.jpg" alt="First slide">
+                                <h2>Comodidade</h2>
+                                <img class="d-block w-100" src="assets/img/comodidade.jpg" alt="First slide">
                                 <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/img/fundo.2.jpg" alt="Second slide">
+                                <h3>Atendimento em qualquer lugar</h3>
+                                <img class="d-block w-100" src="assets/img/atendimento.jpg" alt="Second slide">
                                 <div class="carousel-caption d-none d-md-block" style="color:black">
                                 </div>
                             </div>
 
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/img/fundo.3.jpg" alt="Third slide">
+                                <h2>Acessibilidade</h2>
+                                <img class="d-block w-100" src="assets/img/acessibilidade.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <h2>Segurança</h2>
+                                <img class="d-block w-100" src="assets/img/segurança.jpg" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
                                 </div>
                             </div>
@@ -178,7 +190,7 @@
                 <div class="col-md-3 mt-5" id="cards">
                     <div class="card card-body h-100 text-center">
                         <i class=" fas fa-phone-volume h1"></i>
-                        <p>Ligue para seu plano de saúde e solicite informações de como obter o reembolso.</p>
+                        <p>Ligue para seu <strong> plano de saúde </strong> e solicite informações de como obter o reembolso.</p>
 
                     </div>
                 </div>
@@ -186,7 +198,7 @@
                 <div class="col-md-3 mt-5" id="cards">
                     <div class="card card-body h-100 text-center">
                         <i class="far fa-copy h1"></i>
-                        <p>A maioria dos convênios solicitam um encaminhamento médico com o
+                        <p>A maioria dos convênios solicitam um <strong> encaminhamento médico </strong> com o
                             <abbr title="Classificação Internacional de Doenças">CID 10</abbr> do paciente para autorização da Psicoterapia.
                         </p>
                     </div>
@@ -195,7 +207,7 @@
                 <div class="col-md-3 mt-5" id="cards">
                     <div class="card card-body h-100 text-center">
                         <i class="fas fa-file-invoice-dollar h1"></i>
-                        <p>Solicite também um recibo de pagamento dos atendimentos para apresentar ao convênio.
+                        <p>Solicite também um <strong> recibo</strong> de pagamento dos atendimentos para apresentar ao convênio.
                         </p>
                     </div>
                 </div>
@@ -203,7 +215,7 @@
                     <div class="card card-body h-100 text-center">
                         <i class="fas fa-envelope-open-text h1"></i>
                         <p>
-                            Após reunir toda a documentação, encaminhe para o convênio e aguarde!
+                            Após reunir toda a documentação, <strong> encaminhe </strong> para o convênio e aguarde!
                         </p>
                     </div>
 
@@ -244,11 +256,17 @@
                     <form action="/contato" method="post" role="form" id="form_contato" name="form_contato" class="bg-white p-3 p-lg-5 border border-radius rounded shadow">
                         <input type="hidden">
                         <div class="row form-group">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-lg-7">
                                 <label for="nome">Nome</label>
                                 <input required="" type="text" id="id_nome" name="nome" placeholder="Nome" value="" class="form-control ">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-lg-5">
+                                <label for="telefone">Telefone</label>
+                                <input required="" type="email" id="id_email" name="telefone" placeholder="telefone" value="" class="form-control ">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-12">
                                 <label for="email">Email</label>
                                 <input required="" type="email" id="id_email" name="email" placeholder="Email" value="" class="form-control ">
                             </div>
