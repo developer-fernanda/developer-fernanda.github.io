@@ -1,0 +1,105 @@
+#header {
+    background-image: url(../img/fundo.5.jpg);
+    /* background-color: #20B2AA; */
+    color: white;
+    padding-bottom: 50px;
+}
+
+#navegacao>li>a:hover {
+    color: #05123b;
+    border-bottom: 1px #fafafa solid;
+}
+
+#acesse>li>a:hover {
+    border-bottom: 1px white solid;
+}
+
+h1,
+h3 {
+    background-color: #20b2ab9c;
+    color: white;
+}
+
+#atuacao,
+#reembolso,
+#contatos,
+#home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#citacao {
+    padding: 30px;
+}
+
+#atuacao {
+    background-color: #20B2AA;
+    color: white;
+}
+
+#home,
+#reembolso,
+#contatos,
+#cards {
+    color: rgba(0, 0, 0, 0.671);
+}
+
+#footer,
+#agende {
+    color: white;
+    background-color: #20B2AA;
+}
+
+#cards>:hover {
+    color: #20B2AA;
+}
+
+#cards>.card>[class^=fas],
+#cards>.card>[class^=far],
+h4>[class^=fas],
+h4>[class^=far],
+h5>[class^=fas],
+h5>[class^=far] {
+    color: #20B2AA;
+}
+
+
+/* #carousel position: fixed; */
+
+
+/* Sit on top of the page content */
+
+
+/* width: 100%; */
+
+
+/* Full width (cover the whole page) */
+
+
+/* height: 100%; */
+
+
+/* Full height (cover the whole page) */
+
+
+/* top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(128, 35, 35, 0.5); */
+
+
+/* Black background with opacity */
+
+
+/* z-index: 2; */
+
+
+/* Specify a stack order in case you're using a different order for other elements */
+
+
+/*      
+     cursor: pointer; */
+
+
+/* Add a pointer on hover */
