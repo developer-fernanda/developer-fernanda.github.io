@@ -63,43 +63,31 @@ h5>[class^=far] {
     color: #20B2AA;
 }
 
+.leva-ao-topo {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #20B2AA;
+    cursor: pointer;
+}
 
-/* #carousel position: fixed; */
+.ocultado {
+    display: none;
+}
 
+.mostrar {
+    display: flex;
+}
 
-/* Sit on top of the page content */
-
-
-/* width: 100%; */
-
-
-/* Full width (cover the whole page) */
-
-
-/* height: 100%; */
-
-
-/* Full height (cover the whole page) */
-
-
-/* top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background-color: rgba(128, 35, 35, 0.5); */
-
-
-/* Black background with opacity */
-
-
-/* z-index: 2; */
-
-
-/* Specify a stack order in case you're using a different order for other elements */
-
-
-/*      
-     cursor: pointer; */
-
-
-/* Add a pointer on hover */
+.leva-ao-topo>i {
+    color: #20B2AA;
+    font-size: 17px;
+}
