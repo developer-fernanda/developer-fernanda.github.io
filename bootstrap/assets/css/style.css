@@ -1,0 +1,33 @@
+#navegacao>li>a:hover {
+    color: white;
+    border-bottom: 3px white solid;
+}
+
+#dropdown>a:hover {
+    background-color: rgba(38, 192, 197, 0.562);
+    color: white;
+}
+
+#cards {
+    background-color: white;
+    color: black;
+}
+
+#colunas>:hover {
+    background-color: rgba(38, 192, 197, 0.247);
+}
+
+#sobre,
+#github {
+    background-color: rgba(38, 192, 197, 0.904);
+    color: white;
+}
+
+#contatos {
+    background-color: white;
+    color: black;
+}
+
+#colunas2>:hover {
+    background-color: rgba(38, 192, 197, 0.247);
+}
