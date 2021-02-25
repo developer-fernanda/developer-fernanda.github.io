@@ -6,8 +6,12 @@
 }
 
 #navegacao>li>a:hover {
-    color: #05123b;
     border-bottom: 1px #fafafa solid;
+}
+
+#contato:hover {
+    border-bottom: 0px !important;
+    /* Prioriza */
 }
 
 #acesse>li>a:hover {
@@ -30,11 +34,6 @@ h3 {
 
 #citacao {
     padding: 30px;
-}
-
-#atuacao {
-    background-color: #20B2AA;
-    color: white;
 }
 
 #home,

@@ -20,11 +20,10 @@
                 <span class="navbar-toggler-icon"><i class="fas fa-bars p-1"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                <div class="container d-flex justify-content-around">
+                <div class="container d-flex justify-content-between">
                     <ul class="list-unstyled d-none d-lg-block" style="color: white;">
                         <li>
-                            <img src="assets/img/logo.png" alt="psicologia" class="img-fluid" style="height: 40px;"> Fernanda Ingrid</li>
-                        <li class="pl-5"> Psicóloga </li>
+                            <img src="assets/img/logo.png" alt="psicologia" class="img-fluid" style="height: 35px;"> Psicóloga Fernanda Ingrid</li>
                     </ul>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navegacao">
                         <li class="nav-item px-3">
@@ -37,7 +36,11 @@
                             <a class="nav-link " href="#reembolso" style="color: white;">REEMBOLSO</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link text-reset " href="#contatos" style="color: white;">CONTATOS</a>
+                            <a href="#contatos" style="color: white;" id="contato">
+                                <div class="btn btn-outline-light h5" style="border-radius: 25px;">
+                                    CONTATOS
+                                </div>
+                            </a>
                         </li>
                     </ul>
                     <form class="d-flex ">
@@ -71,18 +74,19 @@
 
 
     <!--CONTEÚDO SITE-->
-    <div class="container-fluid">
+    <div class="container">
         <!--HOME-->
         <section id="home">
             <div class="row mb-5">
                 <!--SUA JORNADA COMEÇA AQUI-->
-                <div class="col-md-5 text-center  mt-3 px-5">
-                    <h4> <i class="fas fa-user-clock h1 px"></i> COMEÇE HOJE
-                    </h4>
+                <div class="col-md-5 text-center  mt-3 px-2">
+                    <h4> <i class="fas fa-user-clock h1 px"></i> COMEÇE HOJE </h4>
                     <hr>
-                    <p> Nos últimos meses, o mundo passou por um grande processo de <strong>transformação</strong>, no qual, foi preciso adaptarmos a forma de realizarmos as atividades diárias.</p>
-                    <p> Novas tecnologias surgiram para auxiliar na comunicação e <strong>atendimento psicológico online </strong>que já era tendência ganhou visibilidade e veio para ficar!</p>
-                    <p> Venha fazer parte dessa nova jornada, não perca tempo! </p>
+                    <div class="mt-5 px-4">
+                        <p> Nos últimos meses, o mundo passou por um grande processo de <strong>transformação</strong>, no qual, foi preciso adaptarmos a forma de realizarmos as atividades diárias.</p>
+                        <p> Novas tecnologias surgiram para auxiliar na comunicação e <strong>atendimento psicológico online </strong>que já era tendência ganhou visibilidade e veio para ficar!</p>
+                        <strong> Venha fazer parte dessa nova jornada, não perca tempo! </strong>
+                    </div>
                 </div>
                 <div class="col-md-7 text-center mt-3 ">
                     <!-- CARROSEL -->
@@ -132,46 +136,43 @@
             </div>
         </section>
         <!-- ATUAÇÃO -->
-        <section id="atuacao">
-            <div class="row ">
-                <div class="col-md-12 text-center">
-                    <p class="h4"> <i class="fas fa-user-edit h1 px-1"></i> ATUAÇÃO
-                    </p>
-                    <hr>
+        <section class="row" id="atuacao">
+            <div class="col-md-12 text-center">
+                <h4> <i class="fas fa-user-edit h1"></i> ATUAÇÃO
+                </h4>
+                <hr class="pb-3">
+            </div>
+            <div class="col-md-6 pb-5" style=" background-color: #20B2AA; color: white;">
+                <img src="assets/img/fernanda.1.jpg " alt="Fernanda Ingrid " class="img-fluid d-block mx-auto mt-5" style="width:250px;">
+                <div class=" mt-5 px-5 text-center ">
+                    <h5>FERNANDA INGRID </h5>
+                    <hr class="my-1 pb-3 " />
+                    <p> Graduada em Psicologia pela Universidade Paulista (UNIP), 2014</p>
+                    <p> Desde 2015, atua em clínica e consultório, utilizando a abordagem fenomenológica existencial.</p>
+                    <p> Atendimento para adolescentes, adultos e casais.</p>
+                    <!-- <p><i class="fab fa-whatsapp "></i> <small>+55 99505-6742</small> </p>
+                    <p><i class="far fa-envelope "></i> <small>fernandaingrid.psicologia@gmail.com </small></p> -->
                 </div>
-                <div class="col-md-6 mt-3">
-                    <img src="assets/img/fernanda.1.jpg " alt="Fernanda Ingrid " class="img-fluid d-block mx-auto" style="width:300px;">
-                    <div class=" mt-5 px-5 text-center ">
-                        <h5>FERNANDA INGRID </h5>
-                        <hr class="my-1 pb-3 " />
-                        <p> Graduada em Psicologia pela Universidade Paulista (UNIP), 2014</p>
-                        <p> Desde 2015, atua em clínica e consultório, utilizando a abordagem fenomenológica existencial.</p>
-                        <p> Atendimento para adolescentes, adultos e casais.</p>
-                        <p><i class="fab fa-whatsapp "></i> <small>+55 99505-6742</small> </p>
-                        <p><i class="far fa-envelope "></i> <small>fernandaingrid.psicologia@gmail.com </small></p>
-                    </div>
+            </div>
+            <!-- PSICOTERAPIA / AT ONLINE / PLANTÃO -->
+            <div class="col-md-6 px-3 text-center" id="cards" style=" background-color: #eee;">
+
+                <div class="card card-body rounded shadow mb-4 mx-4 mt-4">
+                    <h5><i class="fas fa-chalkboard-teacher h2 px-2"></i> ATENDIMENTO ONLINE</h5>
+                    <hr class="my-2 pb-2" />
+                    <p> Consulta por vídeo, sem trânsito, você pode fazer no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
                 </div>
-                <!-- PSICOTERAPIA / AT ONLINE / PLANTÃO -->
-                <div class="col-md-6 mt-3 mb-5 px-3 text-center" id="cards">
 
-                    <div class="card card-body rounded shadow mb-4 mx-4">
-                        <h5><i class="fas fa-chalkboard-teacher h2 px-2"></i> ATENDIMENTO ONLINE</h5>
-                        <hr class="my-2 pb-2" />
-                        <p> Consulta por vídeo, sem trânsito, você pode fazer no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
-                    </div>
+                <div class="card card-body rounded shadow mb-4 mx-4">
+                    <h5><i class="fas fa-couch h2 pt-2 px-2"></i> PSICOTERAPIA</h5>
+                    <hr class="my-2 pb-2 " />
+                    <p> Atendimento psicológico na aborgagem fenomenológica existencial para adolescentes, adultos e casais.</p>
+                </div>
 
-                    <div class="card card-body rounded shadow mb-4 mx-4">
-                        <h5><i class="fas fa-couch h2 pt-2 px-2"></i> PSICOTERAPIA</h5>
-                        <hr class="my-2 pb-2 " />
-                        <p> Atendimento psicológico na aborgagem fenomenológica existencial para adolescentes, adultos e casais.</p>
-                    </div>
-
-                    <div class="card card-body rounded shadow mb-4 mx-4">
-                        <h5><i class="far fa-comments h2 pt-2 px-2"></i>PLANTÃO PSICOLÓGICO</h5>
-                        <hr class="my-2  pb-2" />
-                        <p> Espaço de acolhimento das necessidades emocionais para o desenvolvimento de estratégias de enfrentamento das dificuldades. </p>
-                    </div>
-
+                <div class="card card-body rounded shadow mb-4 mx-4">
+                    <h5><i class="far fa-comments h2 pt-2 px-2"></i>PLANTÃO PSICOLÓGICO</h5>
+                    <hr class="my-2  pb-2" />
+                    <p> Espaço de acolhimento das necessidades emocionais para o desenvolvimento de estratégias de enfrentamento das dificuldades. </p>
                 </div>
             </div>
         </section>
@@ -223,134 +224,117 @@
             </div>
         </section>
 
-        <!--VAMOS CONVERSAR-->
-        <section id="agende">
-            <div class="row p-5">
-                <!--AGENDE-->
-                <div class="col-12 text-center">
-                    <h2 class="m-5"> AGENDE AGORA UM ATENDIMENTO ONLINE</h2>
-                    <hr>
-                    <p> Clique no botão para conversar através do Whatsapp. </p>
-                    <a target="_blank" href="https://wa.me/5511995056742">
-                        <div class="btn btn-outline-light light px-4 mt-4" style="border-radius: 25px;"> <i class="fab fa-whatsapp "> CONVERSAR</i></div>
-                    </a>
-                </div>
-            </div>
-
-        </section>
-
         <!--CONTATOS-->
-        <section id="contatos">
-            <div class="row px-3">
-                <div class="col-12 py-4 text-center">
-                    <h4> <i class="fas fa-address-card h1 px-1"> </i> CONTATOS </h4>
-                    <hr>
-                    <h4>Deixe seus dados que entraremos em contato em algumas horas.</h4>
-                </div>
-                <div class="col-md-5 mt-3 text-center">
-                    <h5>FERNANDA INGRID</h5>
-                    <p>Psicóloga Clínica | 06/124806</p>
-                    <a target="_blank" href="https://wa.me/5511995056742">
-                        <div class="btn btn-outline-dark h6 " style="border-radius: 25px; "> <i class="fab fa-whatsapp "> </i> </div>
-                    </a> + 55 99505-6742 <br>
-                    <a target="_blank" href="mailto:email_que_recebe_as_mensagens@exemplo.com">
-                        <div class="btn btn-outline-dark h6 " style="border-radius: 25px; "> <i class="far fa-envelope "></i> </div>
-                    </a> fernandaingrid.psicologia@gmail.com
 
-
-                </div>
-                <!--FORMULÁRIO DE CONTATO-->
-                <div class="col-md-7 mt-3">
-                    <form action="/contato" method="post" role="form" id="form_contato" name="form_contato" class="bg-white p-3 p-lg-5 border border-radius rounded shadow">
-                        <input type="hidden">
-                        <div class="row form-group">
-                            <div class="col-12 col-lg-7">
-                                <label for="nome">Nome</label>
-                                <input required="" type="text" id="id_nome" name="nome" placeholder="Nome" value="" class="form-control ">
-                            </div>
-                            <div class="col-12 col-lg-5">
-                                <label for="telefone">Telefone</label>
-                                <input required="" type="email" id="id_telefone" name="telefone" placeholder="Telefone" value="" class="form-control ">
-                            </div>
+        <section class="row" id="contatos">
+            <div class="col-12 py-4 text-center">
+                <h4> <i class="fas fa-address-card h1 px-1"> </i> CONTATOS </h4>
+                <hr>
+                <h4>Deixe seus dados que entraremos em contato em algumas horas.</h4>
+            </div>
+            <div class="col-md-5 mt-3 pb-5 text-center" style=" background-color: #20B2AA; color: white;">
+                <h5 class="mt-5 pt-5">FERNANDA INGRID</h5>
+                <p>Psicóloga Clínica | 06/124806</p>
+                <a target="_blank" href="https://wa.me/5511995056742">
+                    <div class="btn btn-outline-light h6 " style="border-radius: 25px;"> <i class="fab fa-whatsapp "> </i> </div>
+                </a> + 55 99505-6742 <br>
+                <a target="_blank" href="mailto:email_que_recebe_as_mensagens@exemplo.com">
+                    <div class="btn btn-outline-light h6 " style="border-radius: 25px; "> <i class="far fa-envelope "></i> </div>
+                </a> fernandaingrid.psicologia@gmail.com
+            </div>
+            <!--FORMULÁRIO DE CONTATO-->
+            <div class="col-md-7 mt-3">
+                <form action="/contato" method="post" role="form" id="form_contato" name="form_contato" class="bg-white p-3 p-lg-5 border border-radius rounded shadow">
+                    <input type="hidden">
+                    <label for="nome" style="color: #20B2AA;">FORMULÁRIO DE CONTATO </label>
+                    <div class="row form-group">
+                        <div class="col-12 col-lg-7">
+                            <label for="nome">Nome</label>
+                            <input required="" type="text" id="id_nome" name="nome" placeholder="Nome" value="" class="form-control ">
                         </div>
-                        <div class="row form-group">
-                            <div class="col-12">
-                                <label for="email">Email</label>
-                                <input required="" type="email" id="id_email" name="email" placeholder="Email" value="" class="form-control ">
-                            </div>
+                        <div class="col-12 col-lg-5">
+                            <label for="telefone">Telefone</label>
+                            <input required="" type="email" id="id_telefone" name="telefone" placeholder="Telefone" value="" class="form-control ">
                         </div>
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label for="message">Mensagem</label>
-                                <textarea required="" id="id_mensagem" name="mensagem" cols="30" rows="5" placeholder="Digite aqui sua mensagem ..." class="form-control "></textarea>
-                            </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-12">
+                            <label for="email">Email</label>
+                            <input required="" type="email" id="id_email" name="email" placeholder="Email" value="" class="form-control ">
                         </div>
-                        <div class="row form-group">
-                            <div class="col-md-12 mt-4 text-center">
-                                <button type="submit" class="btn btn-outline-info  px-4" id="btn_submit_form_contato" style="border-radius: 25px;">ENVIAR</button>
-                            </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label for="message">Mensagem</label>
+                            <textarea required="" id="id_mensagem" name="mensagem" cols="30" rows="5" placeholder="Digite aqui sua mensagem ..." class="form-control "></textarea>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12 mt-4 text-center">
+                            <button type="submit" class="btn  px-4" id="btn_submit_form_contato" style="border-radius: 25px; background-color: #20B2AA; color: white;">ENVIAR</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
-
-        <!-- RODAPÉ-->
-        <footer>
-            <div class="p-4" id="footer">
-                <div class="row ">
-                    <!--INFORMAÇÕES PESSOAIS-->
-                    <div class="col-md-4 -md-1 pl-4">
-                        <nav>
-                            <ul class="list-unstyled text-end px-3 ">
-                                <li class="h5 ">Fernanda Ingrid</li>
-                                <li class="pb-2">Psicóloga Clínica | 06/124806</li>
-                                <a target="_blank" href="https://wa.me/5511995056742">
-                                    <div class="btn btn-outline-light h5 " style="border-radius: 25px; "> <i class="fab fa-whatsapp "></i></div>
-                                </a>
-                                <a target="_blank" href="mailto:email_que_recebe_as_mensagens@exemplo.com">
-                                    <div class="btn btn-outline-light h5 " style="border-radius: 25px; "> <i class="far fa-envelope "></i></div>
-                                </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/fernanda-ingrid-94156377/" style="text-decoration:none; color:white ">
-                                    <div class="btn btn-outline-light h5 " style="border-radius: 25px; "> <i class="fab fa-linkedin "></i></div>
-                                </a>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--HORÁRIOS DE ATENDIMENTO-->
-                    <div class="col-md-4 pl-5">
-                        <nav>
-                            <ul class="list-unstyled text-end  ">
-                                <li class="h5 ">Horários de atendimentos</li>
-                                <li> Segunda à Sexta </li>
-                                <li> 09h às 18h </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--ACESSE-->
-                    <div class="col-md-4 pl-5">
-                        <nav>
-                            <ul class="list-unstyled text-end  " id="acesse">
-                                <li class="h5 ">Acesse</li>
-                                <li><a href="#home" style="text-decoration:none; color:white ">Home</a> </li>
-                                <li><a href="#atuacao" style="text-decoration:none; color:white ">Atuação</a> </li>
-                                <li><a href="#reembolso" style="text-decoration:none; color:white ">Reembolso</a> </li>
-                                <li><a href="#contatos" style="text-decoration:none; color:white ">Contatos</a> </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <a target="_blank" href="https://github.com/developer-fernanda">
-                        <div class="btn btn-outline-light h5 " style="border-radius: 25px; text-decoration:none;"> <i class="fab fa-github"></i></div>
-                    </a>
-                    <p>Copyright 2021</p>
-                    <p>Fernanda Ingrid. Todos os direitos reservados.</p>
-                </div>
-            </div>
-        </footer>
-
     </div>
+
+    <!-- RODAPÉ-->
+    <div class="container-fluid">
+        <footer class="row  p-4" id="footer">
+
+            <!--INFORMAÇÕES PESSOAIS-->
+            <div class="col-md-4 -md-1 pl-4">
+                <nav>
+                    <ul class="list-unstyled text-end px-3 ">
+                        <li class="h5 ">Fernanda Ingrid</li>
+                        <li class="pb-2">Psicóloga Clínica | 06/124806</li>
+                        <a target="_blank" href="https://wa.me/5511995056742">
+                            <div class="btn btn-outline-light h5 " style="border-radius: 25px; "> <i class="fab fa-whatsapp "></i></div>
+                        </a>
+                        <a target="_blank" href="mailto:email_que_recebe_as_mensagens@exemplo.com">
+                            <div class="btn btn-outline-light h5 " style="border-radius: 25px; "> <i class="far fa-envelope "></i></div>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/fernanda-ingrid-94156377/" style="text-decoration:none; color:white ">
+                            <div class="btn btn-outline-light h5 " style="border-radius: 25px; "> <i class="fab fa-linkedin "></i></div>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <!--HORÁRIOS DE ATENDIMENTO-->
+            <div class="col-md-4 pl-5">
+                <nav>
+                    <ul class="list-unstyled text-end  ">
+                        <li class="h5 ">Horários de atendimentos</li>
+                        <li> Segunda à Sexta </li>
+                        <li> 09h às 18h </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--ACESSE-->
+            <div class="col-md-4 pl-5">
+                <nav>
+                    <ul class="list-unstyled text-end  " id="acesse">
+                        <li class="h5 ">Acesse</li>
+                        <li><a href="#home" style="text-decoration:none; color:white ">Home</a> </li>
+                        <li><a href="#atuacao" style="text-decoration:none; color:white ">Atuação</a> </li>
+                        <li><a href="#reembolso" style="text-decoration:none; color:white ">Reembolso</a> </li>
+                        <li><a href="#contatos" style="text-decoration:none; color:white ">Contatos</a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-12 text-center">
+                <a target="_blank" href="https://github.com/developer-fernanda">
+                    <div class="btn btn-outline-light h5 " style="border-radius: 25px; text-decoration:none;"> <i class="fab fa-github"></i></div>
+                </a>
+                <p>Copyright 2021</p>
+                <p>Fernanda Ingrid. Todos os direitos reservados.</p>
+            </div>
+
+        </footer>
+    </div>
+
 
     <a href="#header" id="botao-topo" class="leva-ao-topo shadow ocultado" style="text-decoration: none;">
         <i class="fas fa-angle-double-up"></i>
