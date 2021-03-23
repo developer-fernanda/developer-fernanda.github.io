@@ -1,0 +1,286 @@
+.kaliforms-notice {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+
+    >p {
+        font-size: 15px;
+    }
+}
+
+// .menu-icon-kaliforms_*,
+a[class^="menu-icon-kaliforms"],
+a[class*=" menu-icon-kaliforms"],
+.menu-icon-kaliforms_submitted,
+.menu-icon-kaliforms_forms,
+.menu-icon-kf_email_templates {
+    img {
+        width: 18px;
+    }
+}
+
+#adminmenu .wp-submenu {
+    a[href$="kaliforms-extensions"] {
+        color: #FFA500;
+    }
+}
+
+.kaliform-shortcode-formgroup {
+    position: relative;
+    max-width: 180px;
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        position: absolute;
+        border-radius: 2px;
+        right: 0px;
+        top: 2px;
+        bottom: 2px;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+    }
+}
+
+
+#kaliforms-after-install-page {
+    padding-top: 100px;
+
+    .kaliforms-tooltip {
+        margin-left: 10px;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    .page-card {
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 2px;
+        margin-bottom: 30px;
+        position: relative;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+        width: 100%;
+
+        p {
+            font-size: 16px;
+
+            .button-primary {
+                margin-right: 5px;
+            }
+        }
+
+
+    }
+
+    .header {
+        text-align: center;
+
+        img {
+            max-width: 350px;
+        }
+
+        h1 {
+            font-weight: bold;
+        }
+
+        h3 {
+            margin-top: 10px;
+            font-weight: 400;
+        }
+    }
+
+    .pro-vs-lite {
+        h2 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            &.justify-center {
+                margin-top: 0;
+                justify-content: center;
+            }
+        }
+
+        .pricing-table {
+            display: block;
+            width: 100%;
+            font-size: 15px;
+
+            .pricing-table__row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                border-bottom: 1px solid #eee;
+                padding: 15px 0;
+
+                &:first-of-type {
+                    .pricing-table__cell {
+                        font-size: 20px;
+                    }
+                }
+
+                &:last-of-type {
+                    border-bottom: none;
+                }
+            }
+
+            .pricing-table__cell {
+                width: 33%;
+                text-align: right;
+
+                &.success {
+                    color: #28a745;
+                }
+
+                &.danger {
+                    color: #dc3545;
+                }
+
+                &:first-of-type {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .features {
+        background: #3B88F7;
+        background: linear-gradient(135deg, #3B88F7 20%, #8B8BF9 100%);
+        color: rgba(255, 255, 255, 0.6);
+        position: relative;
+
+        .button {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #fff;
+            padding: 10px 45px;
+            color: #3B88F7;
+            text-align: center;
+            border-radius: 30px;
+            cursor: pointer;
+            background: #fff;
+            transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            font-weight: 400;
+            margin-bottom: 1rem;
+            font-family: inherit;
+            font-size: inherit;
+            text-decoration: none;
+            white-space: normal;
+            overflow-wrap: break-word;
+            box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-top: 45px;
+
+            &.justify-center {
+                margin-top: 0;
+                justify-content: center;
+            }
+
+            .col {
+                width: 48.6%;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+                margin-right: 20px;
+
+                &:nth-child(even) {
+                    margin-right: 0;
+                }
+
+                .icon-div {
+                    width: 30%;
+                    color: #fff;
+                    margin-right: 15px;
+
+                    img {
+                        max-width: 50px;
+                    }
+                }
+
+                .text-div {
+                    color: #fff;
+
+                    h3 {
+                        margin-top: 0;
+
+                        .pro-badge {
+                            background: #dc3545;
+                            color: #fff;
+                            font-size: 10px;
+                            position: relative;
+                            top: -5px;
+                            margin-left: 5px;
+                            padding: 2px 4px;
+                            border-radius: 3px;
+                        }
+                    }
+
+                    h3,
+                    p {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#kaliforms_dashboard_widget {
+    .inside {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .action-buttons {
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        width: 280px;
+        margin: 0 auto;
+    }
+}
+
+
+.post-type-kaliforms_submitted {
+    table.wp-list-table.posts {
+        overflow-x: auto;
+        display: block;
+        width: fit-content;
+        max-width: 100%;
+        white-space: nowrap;
+        border-collapse: collapse;
+    }
+
+    .hidden,
+    .hidden-field {
+        display: table-cell;
+    }
+}

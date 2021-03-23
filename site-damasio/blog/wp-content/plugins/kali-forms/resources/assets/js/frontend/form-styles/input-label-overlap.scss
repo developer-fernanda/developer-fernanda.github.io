@@ -1,0 +1,63 @@
+.inputLabelMergeOverlap {
+    border: 1px solid #cacaca;
+    padding-top: .7em;
+    position: relative;
+    margin-top: 1.2em;
+
+    small {
+        padding: 0 15px;
+    }
+
+    >label {
+        padding: 8px;
+        position: absolute;
+        top: -20px;
+        left: 5px;
+        background: #fff;
+    }
+
+    input[type=color],
+    input[type=date],
+    input[type=datetime-local],
+    input[type=datetime],
+    input[type=email],
+    input[type=month],
+    input[type=number],
+    input[type=password],
+    // input[type=radio],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=time],
+    input[type=url],
+    input[type=week],
+    select,
+    textarea,
+    #kali-stripe-iban-element, #kali-stripe-card-element {
+        border: none;
+        box-shadow: none;
+
+        &:focus {
+            border: none;
+        }
+
+        &[readonly] {
+            background: transparent;
+        }
+    }
+
+    &.checkbox-radio {
+        >label {
+            padding: 0 15px;
+            position: initial;
+        }
+
+        >label:first-child {
+            padding: 8px;
+            position: absolute;
+            top: -20px;
+            left: 5px;
+            background: #fff;
+        }
+    }
+}

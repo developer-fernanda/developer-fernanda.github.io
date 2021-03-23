@@ -1,0 +1,64 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-kali-forms-block {
+    color: black;
+}
+
+.kali-placeholder {
+    width: 100%;
+    padding: 0 5px;
+    display: block;
+    border: 1px solid #757575;
+    border-radius: 2px;
+}
+
+.kali-color-picker .components-text-control__input {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.fileUpload-placeholder {
+    text-align: center;
+    border-radius: 5px;
+    background: #fafafa;
+    pointer-events: none;
+    display: block;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.pagebreak-placeholder {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+
+    >div {
+        flex-grow: 1;
+        text-align: center;
+
+        &:first-of-type {
+            text-align: left;
+            margin-left: 10%;
+        }
+
+        &:last-of-type {
+            text-align: right;
+            margin-right: 10%;
+        }
+
+        >button {
+            pointer-events: none;
+            border: none;
+            border-radius: 4;
+        }
+    }
+}
+
+.bootstrap-wrapper .components-base-control__label {
+    display: block;
+}

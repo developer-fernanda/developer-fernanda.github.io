@@ -1,0 +1,98 @@
+.kaliforms-deactivate-form-active .kaliforms-deactivate-form-bg {
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.kaliforms-deactivate-form-wrapper {
+    position: relative;
+    z-index: 999;
+    display: none;
+}
+
+.kaliforms-deactivate-form-active .kaliforms-deactivate-form-wrapper {
+    display: block;
+}
+
+.kaliforms-deactivate-form {
+    display: none;
+}
+
+.kaliforms-deactivate-form-active .kaliforms-deactivate-form {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    max-width: 500px;
+    min-width: 360px;
+    background: #fff;
+    white-space: normal;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.kaliforms-deactivate-form-head {
+    background: #3B88F7;
+    color: #fff;
+    padding: 15px 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.kaliforms-deactivate-form-body {
+    padding: 8px 18px 0;
+    color: #444;
+}
+
+.kaliforms-deactivate-form-body label[for="kaliforms-remove-settings"] {
+    font-weight: bold;
+}
+
+.deactivating-spinner {
+    display: none;
+}
+
+.deactivating-spinner .spinner {
+    float: none;
+    margin: 4px 4px 0 18px;
+    vertical-align: bottom;
+    visibility: visible;
+}
+
+.kaliforms-deactivate-form-footer {
+    padding: 0 18px 8px;
+}
+
+.kaliforms-deactivate-form-footer p:first-of-type {
+    display: none;
+}
+
+.kaliforms-deactivate-form-footer p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#kaliforms-deactivate-submit-form span {
+    display: none;
+}
+
+.kaliforms-deactivate-form.process-response .kaliforms-deactivate-form-body,
+.kaliforms-deactivate-form.process-response .kaliforms-deactivate-form-footer {
+    position: relative;
+}
+
+.kaliforms-deactivate-form.process-response .kaliforms-deactivate-form-body:after,
+.kaliforms-deactivate-form.process-response .kaliforms-deactivate-form-footer:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+}

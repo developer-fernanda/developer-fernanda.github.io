@@ -1,0 +1,276 @@
+.btn {
+    background: transparent;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 12.5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    top: 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.green {
+    background: #10bc98;
+    color: #fff;
+    box-shadow: 0 3px 0 #0c8d72;
+}
+
+.green:hover {
+    background: #13d7ae;
+}
+
+.green:active,
+.green:focus {
+    background: #0fae8d;
+}
+
+.light-green {
+    background: #87bc58;
+    color: #fff;
+    box-shadow: 0 3px 0 #6ea140;
+}
+
+.light-green:hover {
+    background: #c0da82;
+}
+
+.light-green:active,
+.light-green:focus {
+    background: #7fb84d;
+}
+
+.orange {
+    background: #e77e22;
+    color: #fff;
+    box-shadow: 0 3px 0 #c16515;
+}
+
+.orange:hover {
+    background: #f6b417;
+}
+
+.orange:active,
+.orange:focus {
+    background: #dd7418;
+}
+
+.blue {
+    background: #3cbce1;
+    color: #fff;
+    box-shadow: 0 3px 0 #1fa4cb;
+}
+
+.blue:hover {
+    background: #56d7ed;
+}
+
+.blue:active,
+.blue:focus {
+    background: #2fb7df;
+}
+
+.purple {
+    background: #9a59b5;
+    color: #fff;
+    box-shadow: 0 3px 0 #7f4497;
+}
+
+.purple:hover {
+    background: #c472e6;
+}
+
+.purple:active,
+.purple:focus {
+    background: #944fb0;
+}
+
+.yellow {
+    background: #fac75a;
+    color: #fff;
+    box-shadow: 0 3px 0 #f9b629;
+}
+
+.yellow:hover {
+    background: #fce17a;
+}
+
+.yellow:active,
+.yellow:focus {
+    background: #fac24b;
+}
+
+.grey {
+    background: #4c4c4c;
+    color: #fff;
+    box-shadow: 0 3px 0 #333333;
+}
+
+.grey:hover {
+    background: #747373;
+}
+
+.grey:active,
+.grey:focus {
+    background: #444444;
+}
+
+.red {
+    background: #e84c3d;
+    color: #fff;
+    box-shadow: 0 3px 0 #d82a1a;
+}
+
+.red:hover {
+    background: #f57b8a;
+}
+
+.red:active,
+.red:focus {
+    background: #e63b2b;
+}
+
+.dark-blue {
+    background: #34495e;
+    color: #fff;
+    box-shadow: 0 3px 0 #22303d;
+}
+
+.dark-blue:hover {
+    background: #425c77;
+}
+
+.dark-blue:active,
+.dark-blue:focus {
+    background: #2f4154;
+}
+
+.ash-grey {
+    background: #bec3c7;
+    color: #fff;
+    box-shadow: 0 3px 0 #a3aaaf;
+}
+
+.ash-grey:hover {
+    background: #d0d5d9;
+}
+
+.ash-grey:active,
+.ash-grey:focus {
+    background: #b0b6bb;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.full-rounded {
+    border-radius: 20em;
+}
+
+/* 3D buttons */
+.press-me:active {
+    top: 3px;
+}
+
+.green.press-me:active {
+    box-shadow: 0 2px 0 #0c8d72;
+}
+
+.light-green.press-me:active {
+    box-shadow: 0 2px 0 #6ea140;
+}
+
+.orange.press-me:active {
+    box-shadow: 0 2px 0 #c16515;
+}
+
+.blue.press-me:active {
+    box-shadow: 0 2px 0 #1fa4cb;
+}
+
+.purple.press-me:active {
+    box-shadow: 0 2px 0 #7f4497;
+}
+
+.yellow.press-me:active {
+    box-shadow: 0 2px 0 #f9b629;
+}
+
+.grey.press-me:active {
+    box-shadow: 0 2px 0 #333333;
+}
+
+.red.press-me:active {
+    box-shadow: 0 2px 0 #d82a1a;
+}
+
+.dark-blue.press-me:active {
+    box-shadow: 0 2px 0 #22303d;
+}
+
+.ash-grey.press-me:active {
+    box-shadow: 0 2px 0 #a3aaaf;
+}
+
+/* Transparent buttons */
+.transparent {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: #000;
+}
+
+.green.transparent {
+    border-color: #10bc98;
+}
+
+.light-green.transparent {
+    border-color: #87bc58;
+}
+
+.orange.transparent {
+    border-color: #e77e22;
+}
+
+.blue.transparent {
+    border-color: #3cbce1;
+}
+
+.purple.transparent {
+    border-color: #9a59b5;
+}
+
+.yellow.transparent {
+    border-color: #fac75a;
+}
+
+.grey.transparent {
+    border-color: #4c4c4c;
+}
+
+.red.transparent {
+    border-color: #e84c3d;
+}
+
+.dark-blue.transparent {
+    border-color: #34495e;
+}
+
+.ash-grey.transparent {
+    border-color: #bec3c7;
+}

@@ -1,0 +1,79 @@
+.kaliforms_forms_page_kaliforms-form-entries {
+    background-color: #f0f2f5;
+
+    .wrap {
+        margin: 0
+    }
+
+    #wpcontent {
+        padding-left: 0;
+    }
+
+    #wpbody-content {
+        padding-bottom: 0;
+
+    }
+
+    #wpfooter {
+        position: fixed;
+        background-color: #f0f2f5;
+        z-index: 9999;
+    }
+
+    input[type=color],
+    input[type=date],
+    input[type=datetime-local],
+    input[type=datetime],
+    input[type=email],
+    input[type=month],
+    input[type=number],
+    input[type=password],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=time],
+    input[type=url],
+    input[type=week],
+    select,
+    textarea {
+        padding: 4px 11px;
+        line-height: 1.5715;
+        min-height: initial;
+        box-shadow: initial;
+        border-radius: 2px;
+        border: 1px solid #d9d9d9;
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0.85);
+
+        &:focus {
+            border-color: #40a9ff;
+            box-shadow: 0 0 0 1px rgb(24, 144, 255 / 20%);
+            outline: 0;
+        }
+    }
+
+    @import '~antd/dist/antd.min.css';
+
+    .ant-image-preview-wrap {
+        top: 30px;
+        z-index: 9999;
+    }
+
+    .site-layout-background {
+        background: #f0f2f5;
+    }
+
+    .row-dragging {
+        background: #fafafa;
+        border: 1px solid #ccc;
+    }
+
+    .row-dragging td {
+        padding: 16px;
+        visibility: hidden;
+    }
+
+    .row-dragging .drag-visible {
+        visibility: visible;
+    }
+}

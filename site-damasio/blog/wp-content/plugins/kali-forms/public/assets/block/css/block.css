@@ -1,0 +1,62 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-kali-forms-block {
+  background-color: var(--wp-admin-theme-color);
+  color: #fff;
+  padding: 2px; }
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-kali-forms-block {
+  color: black; }
+
+.kali-placeholder {
+  width: 100%;
+  padding: 0 5px;
+  display: block;
+  border: 1px solid #757575;
+  border-radius: 2px; }
+
+.kali-color-picker .components-text-control__input {
+  padding-top: 1px;
+  padding-bottom: 1px; }
+
+.fileUpload-placeholder {
+  text-align: center;
+  border-radius: 5px;
+  background: #fafafa;
+  pointer-events: none;
+  display: block;
+  padding: 5px;
+  font-size: 13px; }
+
+.pagebreak-placeholder {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px; }
+  .pagebreak-placeholder > div {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    text-align: center; }
+    .pagebreak-placeholder > div:first-of-type {
+      text-align: left;
+      margin-left: 10%; }
+    .pagebreak-placeholder > div:last-of-type {
+      text-align: right;
+      margin-right: 10%; }
+    .pagebreak-placeholder > div > button {
+      pointer-events: none;
+      border: none;
+      border-radius: 4; }
+
+.bootstrap-wrapper .components-base-control__label {
+  display: block; }

@@ -1,0 +1,32 @@
+.email-settings-importer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.email-settings-import {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    max-width: 120px;
+    border: 1px solid transparent;
+    height: 120px;
+    justify-content: center;
+    padding: 10px;
+
+    &.active {
+        border-color: #3B88F7;
+        background: #fff;
+    }
+
+    img {
+        width: 100px;
+        display: block;
+        pointer-events: none;
+    }
+}
+
+#wpcontent {
+    margin-left: 140px;
+}

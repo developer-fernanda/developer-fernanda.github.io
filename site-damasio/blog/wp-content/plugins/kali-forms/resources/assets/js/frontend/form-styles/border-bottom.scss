@@ -1,0 +1,41 @@
+   input[type=color],
+   input[type=date],
+   input[type=datetime-local],
+   input[type=datetime],
+   input[type=email],
+   input[type=month],
+   input[type=number],
+   input[type=password],
+   // input[type=radio],
+   input[type=search],
+   input[type=tel],
+   input[type=text],
+   input[type=time],
+   input[type=url],
+   input[type=week],
+   select,
+   textarea,
+   #kali-stripe-card-element,
+   div[class=kali-forms-digital-signature] {
+       border-top-color: transparent;
+       border-left-color: transparent;
+       border-right-color: transparent;
+       background-color: transparent;
+       box-shadow: none;
+       border-bottom-left-radius: 0;
+       border-bottom-right-radius: 0;
+       padding-left: 0;
+       padding-right: 0;
+       background-position: right 5px center;
+   }
+
+   .image-radio-label {
+       text-align: center;
+
+       &--container {
+           border-top-color: transparent;
+           border-left-color: transparent;
+           border-right-color: transparent;
+
+       }
+   }

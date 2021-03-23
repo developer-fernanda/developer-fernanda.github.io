@@ -1,0 +1,38 @@
+.inputLabelMerge {
+    border: 1px solid #cacaca;
+    padding-top: .7em;
+
+    >label {
+        padding-left: .7em;
+    }
+
+    input[type=color],
+    input[type=date],
+    input[type=datetime-local],
+    input[type=datetime],
+    input[type=email],
+    input[type=month],
+    input[type=number],
+    input[type=password],
+    // input[type=radio],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=time],
+    input[type=url],
+    input[type=week],
+    select,
+    textarea,
+    #kali-stripe-iban-element, #kali-stripe-card-element {
+        border: none;
+        box-shadow: none;
+
+        &:focus {
+            border: none;
+        }
+
+        &[readonly] {
+            background: transparent;
+        }
+    }
+}
