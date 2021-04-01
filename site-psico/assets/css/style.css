@@ -1,6 +1,5 @@
 #header {
     background-image: url(../img/fundo.5.jpg);
-    /* background-color: #20B2AA; */
     color: white;
     padding-bottom: 50px;
 }
@@ -28,9 +27,14 @@ h3 {
 #reembolso,
 #contatos,
 #home {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
+
+
+/* #atuacao_desc {
+    border: 2px solid #20b2ab9c;
+} */
 
 #citacao {
     padding: 30px;
@@ -49,6 +53,7 @@ h3 {
     background-color: #20B2AA;
 }
 
+#atuacao_desc>:hover,
 #cards>:hover {
     color: #20B2AA;
 }
@@ -76,14 +81,6 @@ h5>[class^=far] {
     justify-content: center;
     border: solid 1px #20B2AA;
     cursor: pointer;
-}
-
-.ocultado {
-    display: none;
-}
-
-.mostrar {
-    display: flex;
 }
 
 .leva-ao-topo>i {
