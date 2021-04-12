@@ -1,0 +1,208 @@
+/*NAV*/
+
+#header {
+    background-image: url(../../img/fundo.5.jpg);
+    color: white;
+    padding-bottom: 50px;
+}
+
+#navegacao>li>a:hover {
+    border-bottom: 1px #fafafa solid;
+}
+
+
+/*CONTATO NAV*/
+
+#contato {
+    border-radius: 25px;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+#contato:hover {
+    border-bottom: 0px !important;
+    background: #fff;
+    color: #20B2AA;
+}
+
+
+/*LINKS NAV*/
+
+#link-header>a {
+    border-radius: 25px;
+    border: solid 1px #fff;
+    font-size: 18px;
+    color: #fff;
+}
+
+#link-header>a:hover {
+    background: #fff;
+    color: #20B2AA;
+}
+
+
+/*GERAL*/
+
+#atuacao,
+#reembolso,
+#contatos,
+#home {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+#home,
+#reembolso,
+#contatos,
+#atuacao {
+    color: rgba(0, 0, 0, 0.671);
+}
+
+
+/*HOME*/
+
+#home>.row>.col-lg-12>p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#citacao {
+    padding: 30px;
+}
+
+#citacao>.col-md>a {
+    border-radius: 25px;
+    border: solid 1px #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#citacao>.col-md>a:hover {
+    background-color: #fff;
+    color: #20B2AA;
+}
+
+
+/*ATUAÇÃO*/
+
+#atuacao_desc>:hover {
+    color: #20B2AA;
+}
+
+#atuacao_desc>h5 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#atuacao_desc>p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*REEMBOLSO*/
+
+#reembolso>.row>.col-md-6,
+#reembolso>.row>.col-lg-3,
+#reembolso>.row>.col-sm-12 {
+    margin-top: 60px;
+}
+
+#reembolso>.row>.col-md-6>.fas,
+#reembolso>.row>.col-lg-3>.fas,
+#reembolso>.row>.col-md-6>.far,
+#reembolso>.row>.col-lg-3>.far,
+h4>[class^=fas],
+h4>[class^=far],
+h5>[class^=fas],
+h5>[class^=far] {
+    color: #20B2AA;
+}
+
+#reembolso>.row>.col-md-6:hover,
+#reembolso>.row>.col-lg-3:hover {
+    color: #20B2AA;
+}
+
+#reembolso>.row>.col-lg-3>h6 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/*FORMS*/
+
+#section_form {
+    background-color: #20B2AA;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#form_contato {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#form_contato>.row>.col-md-12>button {
+    border-radius: 25px;
+    border: solid 1px #fff;
+    color: #fff;
+    background-color: #20B2AA;
+}
+
+#form_contato>.row>.col-md-12>button:hover {
+    background-color: #fff;
+    color: #20B2AA;
+}
+
+#section_form>.row>.col-lg-5>a {
+    border-radius: 25px;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+#section_form>.row>.col-lg-5>a:hover {
+    background-color: #fff;
+    color: #20B2AA;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+
+/*LINKS FOOTER*/
+
+#link-nav>li>a:footer {
+    border-bottom: 1px white solid;
+}
+
+
+/*BOTÃO LEVA AO TOPO*/
+
+.leva-ao-topo {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #20B2AA;
+    cursor: pointer;
+}
+
+.leva-ao-topo>i {
+    color: #20B2AA;
+    font-size: 17px;
+}

@@ -1,0 +1,134 @@
+/*alinhamento de imagem e texto do carousel*/
+
+#fotos_sala {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/*Largura e altura 100% do carousel*/
+
+.carousel-salas {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+}
+
+
+/*Configuração de imagem - Alinhamento dentro do carousel*/
+
+.imagem-sala {
+    padding: 0 0 30px 0;
+    overflow: hidden;
+}
+
+
+/*Demais imagens*/
+
+.imagem-sala .slide {
+    /*tamanho*/
+    transform: scale(0.6);
+    /*Efeito da imagem do centro*/
+    transition: 0.3s;
+    /*Para funcionar em outros browser*/
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    /*Retira as bordas  entorno da imagem*/
+    outline: none !important;
+}
+
+
+/*Imagens do centro*/
+
+.imagem-sala .slide.slick-center {
+    transform: scale(1);
+    /*tamanho imagem do centro*/
+    transition: 0.3s;
+}
+
+.arrow {
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 40px;
+    color: #20B2AA;
+}
+
+.description {
+    display: inline-block;
+    height: 40px;
+    /*Altura da linha*/
+    line-height: 50px;
+    width: 200px;
+    vertical-align: middle;
+    /*Espessura da fonte*/
+    font-size: 30px;
+    font-weight: bolder 100px;
+    color: #20B2AA;
+}
+
+#descricao-sala {
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/* **********************************************************************************************
+  ***********************************   MEDIA QUERIES   ******************************************* 
+  ********************************************************************************************** */
+
+
+/* Small Screens *****************************************************************************/
+
+@media only screen and (max-width: 640px) {}
+
+
+/* End of small Screens*/
+
+
+/* Medium Screens ****************************************************************************/
+
+@media only screen and (min-width: 641px) and (max-width: 1023px) {
+    .imagem-sala .slide {
+        width: 33%;
+    }
+}
+
+
+/* End of Medium Screens*/
+
+
+/* Large Screens *****************************************************************************/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .carousel-salas {
+        width: 1024px;
+    }
+}
+
+
+/*   End of Large Screens*/
+
+
+/* Extra Large Screens ***********************************************************************/
+
+@media only screen and (min-width: 1441px) {
+    .carousel-salas {
+        width: 1440px;
+    }
+}
+
+
+/* End of Extra Large Screens*/
