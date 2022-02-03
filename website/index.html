@@ -674,20 +674,20 @@
 			<!-- Formulário de Contato-->
 			<div class="row no-gutters block-9">
 				<div class="col-md-6 order-md-last d-flex">
-					<form action="#" class="bg-light p-4 p-md-5 contact-form">
+					<form class="bg-light p-4 p-md-5 contact-form">
 						<p class="test"> Vamos Conversar?</p>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Seu Nome">
+							<input type="text" class="form-control" placeholder="Seu Nome" id="id_nome">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Seu E-mail">
+							<input type="text" class="form-control" placeholder="Seu Telefone" id="id_telefone">
 						</div>
 						<div class="form-group">
 							<textarea name="" id="" cols="30" rows="7" class="form-control"
-								placeholder="Digite sua mensagem"></textarea>
+								placeholder="Digite sua mensagem" id="id_mensagem"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" value="Envie Mensagem" class="btn btn-primary py-3 px-5">
+							<input type="submit" value="Envie Mensagem" class="btn btn-primary py-3 px-5" onclick="pegarEmail(); return false">
 						</div>
 					</form>
 				</div>
@@ -799,6 +799,9 @@
 	<script src="particles/particles.js"></script>
 	<script src="particles/js/app.js"></script>
 	<!-- scripts particles end -->
+
+	<!-- Pega Email -->
+	<script src="js/sendEmail.js"> </script>
 
 
 </body>
