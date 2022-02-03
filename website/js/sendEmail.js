@@ -1,5 +1,5 @@
 //Contato de clientes
-function pagaEmail() {
+function pegarEmail() {
 
     var quebraDeLinha = '%0D%0A';
 

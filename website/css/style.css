@@ -8269,9 +8269,9 @@ h1, h2, h3, h4, h5,
     border: 1px solid #a0f669;
     background: #a0f669 !important; }
   .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
-    background: transparent;
-    background: none;
-    color: #563D7C; }
+    /* background: transparent; */
+    /* background: none;
+    color: #563D7C; */ } 
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
