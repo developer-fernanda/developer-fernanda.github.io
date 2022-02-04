@@ -1,0 +1,248 @@
+/* layout */
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1C1C1C;
+}
+
+.header{
+    color: #BD9E28;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/**********************
+****content navbar**** 
+**********************/
+
+.content-navbar {
+    padding: 0 10px !important;
+}
+
+
+.navbar i{
+    color: #BD9E28;
+    font-size: 40px;
+}
+
+
+.nav-list .items-list a {
+    color: 	#D3D3D3;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 50px;
+    border-bottom: 2px solid #bd9f2800;
+}
+
+.nav-list .items-list a:hover {
+    border-bottom: 2px solid #BD9E28;
+    color: #BD9E28;
+}
+
+.btn-click{
+    color: white !important;
+    background-color: #54545F !important;
+}
+
+/**********************
+****content banner**** 
+**********************/
+
+@media (max-width: 991.98px) {
+    .content-banner {
+        background: url('../img/banner.jpg') no-repeat center;
+        height: 95vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }    
+  }
+
+@media (min-width: 992px) {
+    .content-banner {
+        background: url('../img/banner.jpg') no-repeat;
+        height: 95vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }    
+}
+
+ 
+.content-banner h2 {
+    display: flex;
+    color: white;
+    padding-top: 250px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.content-banner span{
+    color: #BD9E28;
+    font-size: 40px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.content-banner h3 {
+    display: flex;
+    color: 	#D3D3D3;
+    font-size: 20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.btn-outline-dark{
+    color: white !important;
+}
+
+/**********************
+****content contact**** 
+**********************/
+
+
+.section-contact{
+    background: #BD9E28;
+    padding: 30px;
+    color: #1C1C1C;
+    font-size: 25px;
+}
+
+/**********************
+content card - serviços 
+**********************/
+
+.content-card h2, .content-contact-form h2{
+    color: #BD9E28;
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+
+.content-card h3{
+    color: #54545f48;
+    font-size: 80px;
+    margin-top: -130px;
+    font-weight: 900;
+}
+
+.content-card h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.content-card p{
+    color: #54545F;
+    margin-bottom: 100px;
+}
+
+.content-card {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card-form {
+    transition: all 2s;
+}
+
+.card-form:hover {
+    transform: scale(1.05);
+}
+
+.content-card .card{
+    background-color: #BD9E28 !important;
+    color: white;
+}
+
+/**********************
+*content-contact-form * 
+**********************/
+
+.content-contact-form h3{
+    color: #54545f48;
+    font-size: 80px;
+    margin-top: -130px;
+    font-weight: 900;
+}
+
+.content-contact-form p{
+    color: #54545F;
+    margin-bottom: 100px;
+}
+
+.content-contact-form{
+    margin-bottom: 100px;
+}
+
+.form_contato label{
+    color: #BD9E28;
+    font-size: 15px;
+}
+
+.form_contato input, .form_contato textarea {
+    background-color: #54545f48;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+/**********************
+****content footer ****
+**********************/
+
+.content-footer {
+    background-color: #171717;
+    height: 100%;
+    width: 100%;
+}
+
+.box-acess ul a {
+    text-decoration: none;
+}
+
+.box-acess ul a li {
+    margin: 6px;
+}
+
+.box-acess ul a li:hover,
+.contact:hover {
+    color: #D3D3D3;
+}
+
+
+.contact {
+    text-decoration: none;
+    color: white;
+}
+
+
+.content-footer h2{
+    color: #BD9E28;
+    font-size: 20px;
+}
+
+
+.content-footer p,
+.content-footer ul li,
+.content-footer a {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none !important;
+}
+
+hr {
+    background: #D3D3D3
+}
+
+.content-footer .col-12{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+}
