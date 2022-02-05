@@ -8537,7 +8537,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 1; }
 
-.ftco-about ul.about-info {
+.ftco-about{
   display: inline-block;
   padding: 0;
   margin: 0;
@@ -8545,8 +8545,13 @@ h1, h2, h3, h4, h5,
   .ftco-about ul.about-info li {
     list-style: none;
     margin-bottom: 10px; }
+    @media (min-width:  481px ){
+      .ftco-about ul.about-info li {
+        display: flex !important; }
+    }
     .ftco-about ul.about-info li span {
-      width: calc(100% - 130px); }
+      width: calc(100% - 130px);
+     }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
         color: #fff;
