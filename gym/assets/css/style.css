@@ -116,14 +116,14 @@
 content card - serviços 
 **********************/
 
-.content-card h2, .content-contact-form h2{
+.content-card h2, .content-contact-form h2, .content-plans h2{
     color: #BD9E28;
     font-size: 50px;
     margin-bottom: 100px;
     font-weight: 900;
 }
 
-.content-card h3{
+.content-card h3, .content-plans h3{
     color: #54545f48;
     font-size: 80px;
     margin-top: -130px;
@@ -137,7 +137,7 @@ content card - serviços
     padding: 30px;
 }
 
-.content-card p{
+.content-card p, .content-plans p{
     color: #54545F;
     margin-bottom: 100px;
 }
@@ -159,6 +159,64 @@ content card - serviços
     background-color: #BD9E28 !important;
     color: white;
 }
+
+
+/**********************
+content card - serviços 
+**********************/
+
+.content-plans{
+    margin-bottom: 130px;
+}
+
+.card-plans{
+    background-color: #BD9E28 !important;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.card-plans i{
+    color: #D3D3D3;
+    margin-top: 40px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.card-plans h4{
+    font-size: 20px;
+    color: #D3D3D3;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.card-plans h5{
+    font-size: 50px;
+    color: #171717;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.card-plans span{
+    font-size: 25px;
+    color: #171717;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+  
+.card-plans p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 5px !important;
+    font-weight: 700;
+}
+
+.observacao{
+    font-size: 15px !important;
+    color: #171717 !important;
+    padding: 20px;
+}
+    
 
 /**********************
 *content-contact-form * 

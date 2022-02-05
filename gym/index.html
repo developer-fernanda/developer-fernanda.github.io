@@ -15,7 +15,7 @@
 </head>
 
 <body class="body">
-    <span id="Home"></span>
+    <span id="home"></span>
     <nav class="navbar navbar-expand-lg navbar fixed-top content-navbar" id="nav-color">
         <div class="container header">
             <i class="fas fa-dumbbell mr-2"></i> FITNESS
@@ -27,9 +27,10 @@
             <div class="collapse navbar-collapse nav-list" id="navbarNavAltMarkup">
                 <hr>
                 <div class="navbar-nav ml-auto items-list">
-                    <a class="nav-link active" href="#Home">HOME</a>
-                    <a class="nav-link" href="#Servicos">SERVIÇOS</a>
-                    <a class="nav-link" href="#Contato">CONTATO</a>
+                    <a class="nav-link active" href="#home">HOME</a>
+                    <a class="nav-link" href="#servicos">SERVIÇOS</a>
+                    <a class="nav-link" href="#planos">PLANOS</a>
+                    <a class="nav-link" href="#contato">CONTATO</a>
                 </div>
             </div>
         </div>
@@ -41,7 +42,7 @@
             <h2> FITNESS <span> ACADEMIA </span></h2>
             <h3> TREINOS PERSONALIZADOS PARA VOCÊ</h3>
             <a target="_blank" href="https://wa.me/55119999-9999" class="btn btn-click mt-3"> SAIBA MAIS</a>
-            <a href="#Servicos" class="btn btn-outline-dark mt-3 ml-2">VER SERVIÇOS</a>
+            <a href="#servicos" class="btn btn-outline-dark mt-3 ml-2">VER SERVIÇOS</a>
 
         </div>
     </section>
@@ -62,7 +63,7 @@
     <!-- end section -->
 
 
-    <section class="container content-card" id="Servicos">
+    <section class="container content-card" id="servicos">
         <div class="row">
             <div class="col-12 text-center">
                 <h2>SERVIÇOS</h2>
@@ -73,26 +74,75 @@
             <div class="col-md-6 col-lg-4 text-center mb-3">
                 <div class="card card-form">
                     <img src="assets/img/img-3.jpg" class="img-fluid" alt="">
-                    <h4>Musculação </h4>
+                    <h4>MUSCULAÇÃO </h4>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 text-center mb-3">
                 <div class="card card-form">
                     <img src="assets/img/img-1.png" class="img-fluid" alt="">
-                    <h4> Pilates </h4>
+                    <h4> PILATES </h4>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4  text-center mb-3">
                 <div class="card card-form">
                     <img src="assets/img/img-2.png" class="img-fluid" alt="">
-                    <h4> Zumba</h4>
+                    <h4> ZUMBA</h4>
                 </div>
             </div>
         </div>
     </section>
     <!-- end section -->
 
-    <section class="container content-contact-form" id="Contato">
+    <section class="container content-plans" id="planos">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>PLANOS</h2>
+                <h3>PLANOS</h3>
+                <p>Temos planos a partir de 59,99 por mês</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 text-center mb-3">
+                <div class="card card-plans">
+                    <i class="fas fa-running"></i>
+                    <h4> FIT CORPARATE</h4>
+                    <h5><span>R$</span>59,99</h5>
+                    <p>MUSCULAÇÃO</p>
+                    <p>+</p>
+                    <p>AULAS COLETIVAS</p>
+                    <p class="observacao">*Válido para planos bimenstrais</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center mb-3">
+                <div class="card card-plans">
+                    <i class="fas fa-dumbbell"></i>
+                    <h4> FIT STUDENT</h4>
+                    <h5><span>R$</span>69,99</h5>
+                    <p>MUSCULAÇÃO</p>
+                    <p>+</p>
+                    <p>AULAS COLETIVAS</p>
+                    <p class="observacao">*Válido para planos bimenstrais</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center mb-3">
+                <div class="card card-plans">
+                    <i class="fas fa-running"></i>
+                    <h4> FIT GOLD</h4>
+                    <h5><span>R$</span>89,99</h5>
+                    <p>MUSCULAÇÃO</p>
+                    <p>+</p>
+                    <p>CÁRDIO FITNESS</p>
+                    <p>+</p>
+                    <p>AULAS COLETIVAS</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- end section -->
+
+    <section class="container content-contact-form" id="contato">
         <div class="row">
             <div class="col-12 text-center">
                 <h2>CONTATO</h2>
@@ -101,7 +151,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 d-sm-none d-lg-inline-block">
                 <img src="assets/img/img-contato.png" class="w-100" alt="imagem-form">
             </div>
             <!--Form-->
@@ -175,13 +225,16 @@
                     <h2>ACESSE</h2>
                     <hr>
                     <ul class="list-unstyled">
-                        <a href="#Home">
+                        <a href="#home">
                             <li>Home</li>
                         </a>
-                        <a href="#Servicos">
+                        <a href="#servicos">
                             <li>Serviços</li>
                         </a>
-                        <a href="#Contato">
+                        <a href="#planos">
+                            <li>Planos</li>
+                        </a>
+                        <a href="#contato">
                             <li>Contato</li>
                         </a>
                     </ul>
