@@ -4,6 +4,9 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3463,6 +3466,12 @@ input[type="button"].btn-block {
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
+  .navbar-brand span{
+    color: #563D7C;
+    font-size: 20px;
+    margin-left: 3px;
+    font-weight: 500;
+  }
 
 .navbar-nav {
   display: -webkit-box;
@@ -8566,7 +8575,7 @@ h1, h2, h3, h4, h5,
     font-weight: 600;
     color: #563D7C; }
 
-.test {
+.form-conversar {
   font-weight: 900;
   font-size: 26px;
   color: #563D7C; }
