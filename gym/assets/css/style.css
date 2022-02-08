@@ -7,9 +7,37 @@
 
 .header{
     color: #BD9E28;
-    font-size: 30px;
-    font-weight: 600;
     margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.btn-click{
+    color: white !important;
+    background-color: #54545F !important;
+}
+
+.btn-topo{
+    display: flex;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 40px;
+    height: 40px;
+    color: #BD9E28;
+    background-color: #54545f00;
+    border-radius: 50px;
+    border: 1px solid #BD9E28;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.btn-topo:hover{
+    background-color: #BD9E28;
+    color: #D3D3D3;
 }
 
 /**********************
@@ -23,7 +51,7 @@
 
 .navbar i{
     color: #BD9E28;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -40,10 +68,12 @@
     color: #BD9E28;
 }
 
-.btn-click{
-    color: white !important;
-    background-color: #54545F !important;
-}
+@media (max-width: 991.98px) {
+    .navbar-nav{
+    background-color: #1C1C1C;
+
+}}
+
 
 /**********************
 ****content banner**** 
@@ -173,7 +203,14 @@ content card - serviços
     background-color: #BD9E28 !important;
     padding: 30px;
     margin-bottom: 20px;
+    transition: all 2s;
 }
+
+
+.card-plans:hover {
+    transform: scale(1.05);
+}
+
 
 .card-plans i{
     color: #D3D3D3;
