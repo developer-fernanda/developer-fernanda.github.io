@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--COR DO TOPO-->
+    <meta name="theme-color" content="#">
+    <Title>School</Title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ÍCONE DA PAGINA (URL) -->
+    <link rel="shortcut icon" type="image/jpg" href="#" />
+</head>
+
+<body>
+
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg background-nav fixed-top">
+            <div class="container container-header">
+                <!--Logo-->
+                <a href="#home"> <div><i class="fa-solid fa-puzzle-piece mr-1 mb-1"></i> <span> EDUCA</span> JOKA
+                </div></a>
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home" id="item-home"> HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre" id="item-sobre"> NOSSA HISTÓRIA </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos" id="item-servicos"> SERVIÇOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato" id="item-contato"> CONTATO </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Home-->
+    <section id="home" class="section-home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active"> 
+                    <div class="d-block w-100 carousel-img-1"></div>
+                    <div class="carousel-caption ">
+                        <div class="col-md-6"> 
+                            <h1>Escolha a melhor escola para seu filho</h1>
+                            <div class="botao-carousel">
+                                <a href="#" class="btn btn-light">EU QUERO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block w-100 carousel-img-2"></div>
+                    <div class="carousel-caption ">
+                        <div class="col-md-6"> 
+                            <h1>Seu pequeno aprende brincando</h1>
+                            <div class="botao-carousel">
+                                <a href="#" class="btn btn-light">EU QUERO</a>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i class="fa-solid fa-chevron-left h1"></i>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i class="fa-solid fa-chevron-right h1"></i>
+            </a>
+        </div>
+    </section>
+
+    <!--Fale Conosco-->
+    <section class="section-faleConosco">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-center">
+                    <p>Estamos lhe esperando, agende sua visita!</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="#" class="btn btn-warning mt-3 mb-2">CLIQUE AQUI</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sobre-->
+    <section id="sobre" class="section-sobre">
+        <div class="container container-sobre">
+            <div class="row">
+                <!--Texto-->
+                <div class="col-md-12 text-center">
+                    <h2> Nossa história </h2>
+                    <h4>Toda história de amor tem um príncipe encantado.</h4>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/img/sobre-2.gif" alt="joaquim" class="img-sobre">
+                </div>
+                <div class="col-md-6">
+                    <p><span>Era uma vez </span> um pequeno príncipe que gostava de viajar em sua própria imaginação e distribuia amor por onde passava... </p>
+                    <p> O Príncipe, tinha a importante missão de ensinar para as pessoas, que seja qual for a sua dificuldade, todos temos a responsabilidade de sermos melhores e de buscarmos a cada dia, novas oportunidades para aprendermos e sermos felizes. 
+                         </p>
+
+                    <!-- Button modal -->
+                    <button type="button" class="btn btn-click" data-toggle="modal" data-target="#modalSobre">
+                        SAIBA MAIS
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalSobre" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Nossa história</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe est tempore
+                                    natus illo distinctio dicta, soluta libero magnam suscipit sint assumenda similique
+                                    velit dignissimos incidunt? Quis eos numquam quaerat.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-click" data-dismiss="modal">Sair</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim Modal -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+      <!-- Fotos -->
+      <section id="fotos" class="section-foto">
+        <div class="container ">
+            <div class="row">        
+                <div class="col-md-12">
+                    <h2>Faça sua matrícula</h2>
+                    <h3>15% <span>Desconto</span> </h3>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Serviços-->
+    <section id="servicos" class="section-servicos" >
+        <div class="container container-servicos">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Serviços</h2>
+                    <h4>Tudo é mais divertido quando a gente ama o que faz!</h4>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!--card-->
+                    <div class="card card-box card-verde">
+                        <img class="card-img-top" src="assets/img/card-1-oficina.gif" alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Oficinas</h5>
+                            <p class="text-center">
+                                <!--Button -->
+                                <button class="btn btn-outline-light" type="button" data-toggle="modal" data-target="#modalVerde">
+                                    SABER MAIS
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalVerde" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Oficinas</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe est tempore
+                                    natus illo distinctio dicta, soluta libero magnam suscipit sint assumenda similique
+                                    velit dignissimos incidunt? Quis eos numquam quaerat.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-click" data-dismiss="modal">Sair</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim Modal -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!--card-->
+                    <div class="card card-box card-vermelho">
+                        <img class="card-img-top" src="assets/img/card-2-reforço.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Reforço escolar</h5>
+                            <p class="text-center">
+                                <!--Button-->
+                                <button class="btn btn-outline-light" type="button" data-toggle="modal" data-target="#modalVermelho">
+                                    SABER MAIS
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalVermelho" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Reforço Escolar</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe est tempore
+                                    natus illo distinctio dicta, soluta libero magnam suscipit sint assumenda similique
+                                    velit dignissimos incidunt? Quis eos numquam quaerat.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-click" data-toggle="modal" data-target="#modalVermelho">Sair</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim Modal -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!--card-->
+                    <div class="card card-box card-laranja">
+                        <img class="card-img-top" src="assets/img/card-3-criatividade.gif" alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Criatividade</h5>
+                            <p class="text-center">
+                                <!--Button-->
+                                <button class="btn btn-outline-light" type="button" data-toggle="modal" data-target="#modalAmarelo">
+                                    SABER MAIS
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalAmarelo" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Criatividade</h5>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe est tempore
+                                natus illo distinctio dicta, soluta libero magnam suscipit sint assumenda similique
+                                velit dignissimos incidunt? Quis eos numquam quaerat.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-click" data-dismiss="modal">Sair</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Fim Modal -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section class="section-EntreContato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-center">
+                    <p>Entre em contato e tire suas dúvidas.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="#" class="btn btn-warning mb-3">CLIQUE AQUI</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section id="contato" class="section-contato">
+        <div class="container container-contato">
+            <div class="row">
+                <!--Texto-->
+                <div class="col-12 text-center">
+                    <i class="fa-solid fa-crown principe"></i> 
+                    <h2> Entre em contato </h2>
+                    <h4>Venha aprender, brincar e ser feliz!</h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="foto-contato"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-12">
+                        <form  role="form" class="form_contato" name="form_contato">
+                            <div class="row form-group">
+                                <div class="col-md-6 mt-2">
+                                    <label for="id_nome">Nome</label>
+                                    <input required="" type="text" id="id_nome" name="nome"
+                                        placeholder="Digite seu nome" value="" class="form-control ">
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <label for="id_telefone">Telefone</label>
+                                    <input required="" type="email" id="id_telefone" name="telefone"
+                                        placeholder="Digite seu telefone" value="" class="form-control ">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12">
+                                    <label for="message">Mensagem</label>
+                                    <textarea required="" id="id_mensagem" name="mensagem" cols="30" rows="7"
+                                        placeholder="Digite aqui sua mensagem ..." class="form-control "></textarea>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12 mt-4 text-center">
+                                    <button class="btn btn-click" id="btn_submit_form_contato">ENVIAR</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <i class="fa-solid fa-puzzle-piece joka"></i> <h6> EDUCA
+                        <span> JOKA</span></h6>
+                        <p> A gente aprende brincando e postando!  </p>
+                        <a target="_blank" class="btn btn-icone" href="https://www.instagram.com/"> <i
+                                class="fab fa-instagram"></i>
+                        </a>
+                        <a target="_blank" class="btn btn-icone" href="https://www.facebook.com/fernanda.ingrid.1460"><i
+                                class="fab fa-facebook-square"></i>
+                        </a>
+                        <a target="_blank" class="btn btn-icone" href="https://www.linkedin.com/in/fernanda-ingrid-silva-ferreira-9a6bab230/"><i
+                                class="fab fa-linkedin-in"></i> </a>
+                </div>
+               
+                <div class="col-12 text-center"> Copyright 2021 | Todos os direitos reservados.</div>
+            </div>
+        </div>
+    </footer>
+    <a href="#home"><i class="fa-solid fa-puzzle-piece icone-topo" id="icone-topo"></i>  </a>
+
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2bb7be8f33.js" crossorigin="anonymous"></script>
+
+
+    <!--SCRIPT-->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
