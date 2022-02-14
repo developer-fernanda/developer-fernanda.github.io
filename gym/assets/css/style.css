@@ -1,5 +1,6 @@
 /* layout */
 
+
 .body {
     font-family: 'Lato', sans-serif;
     background-color: #1C1C1C;
@@ -17,26 +18,18 @@
     background-color: #54545F !important;
 }
 
-.btn-topo{
+.btn-topo i{
     display: flex;
     position: fixed;
     right: 25px;
     bottom: 25px;
-    width: 40px;
-    height: 40px;
-    color: #BD9E28;
-    background-color: #54545f00;
-    border-radius: 50px;
-    border: 1px solid #BD9E28;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
+    color: white;
+    font-size: 30px;
     cursor: pointer;
     text-decoration: none !important;
 }
 
-.btn-topo:hover{
-    background-color: #BD9E28;
+.btn-topo i:hover{
     color: #D3D3D3;
 }
 
@@ -48,12 +41,10 @@
     padding: 0 10px !important;
 }
 
-
 .navbar i{
     color: #BD9E28;
     font-size: 30px;
 }
-
 
 .nav-list .items-list a {
     color: 	#D3D3D3;

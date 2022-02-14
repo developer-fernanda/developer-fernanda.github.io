@@ -2,14 +2,18 @@
 function none() {
     var posicaoAtual = document.documentElement.scrollTop;
 
-    if (posicaoAtual <= 350) {
-        document.getElementById("nav-color").style.display = "flex";
-        document.getElementById("btn-topo").style.display = "none";
-        $(".btn-topo").hide("slow");
-
+    if (posicaoAtual >= 350) { 
+        document.getElementById("btn-topo").style.display = "flex";
     } else {
-        document.getElementById("nav-color").style.display = "none";
-        $(".btn-topo").show("slow");
+        document.getElementById("btn-topo").style.display = "none";
+            
+    }
+
+    if (posicaoAtual > 350) { 
+        document.getElementById("nav-color").style.display = "none"; 
+    } else {
+        document.getElementById("nav-color").style.display = "flex"; 
+        
     }
 }
 
@@ -21,6 +25,28 @@ window.onscroll = function(oEvent) {
 $(document).ready(function() {
 
     $("#btn-topo").click(function() {
-        $("html, body").animate({ scrollTop: 0 }, 3000);
+        var posicao = $("#home").offset().top;
+        $("html, body").animate({ scrollTop: posicao }, 500);
+    });
+
+    $("#item-home").click(function(event) {
+        event.preventDefault()
+        var posicao = $("#home").offset().top;
+        $("html, body").animate({ scrollTop: posicao }, 500);
+    });
+
+    $("#item-servicos").click(function() {
+        var posicao = $("#servicos").offset().top;
+        $("html, body").animate({ scrollTop: posicao }, 500);
+    });
+
+    $("#item-planos").click(function() {
+        var posicao = $("#planos").offset().top;
+        $("html, body").animate({ scrollTop: posicao }, 500);
+    });
+
+    $("#item-contato").click(function() {
+        var posicao = $("#contato").offset().top;
+        $("html, body").animate({ scrollTop: posicao }, 500);
     });
 });
