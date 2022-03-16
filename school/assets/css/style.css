@@ -142,6 +142,22 @@ body{
    }
  }
 
+ @media(min-width: 2560px){
+  .carousel-caption .col-md-6 h1{
+    font-size: 40px !important;
+    display: flex;
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: 200px;
+   }
+  .botao-carousel{
+    display: flex;
+    text-align: start;
+    margin-bottom: 70px;
+    margin-left: 200px;
+   }
+ }
+
 .botao-carousel .btn-light{
   color: #19B1E2 !important;
 }
@@ -339,7 +355,7 @@ body{
 }
 
 .form_contato label{
-  color: #F5B120;
+  color: #19B1E2;
 }
 
 .form_contato input, .form_contato textarea{
